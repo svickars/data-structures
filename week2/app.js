@@ -5,12 +5,9 @@ var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/01.txt');
 
 var $ = cheerio.load(content);
 
-// Print to console: text from all td elements with style below... where to go from here?! This finds content on either side of the address. How to narrow it down?
-$('td').each(function(i, elem) {
-    if($(elem).attr("style") == "border-bottom:1px solid #e3e3e3; width:260px") {
-            $(elem).find('b').each(function(i, elem) {
-            console.log($(elem).text());
-        });
-    }
-})
-
+// find the tbody and the table row within each
+$('td').find('tr').each(function(i, elem){
+        // find the td equal to zero (zeroeth element is the first one)
+        // then split on the break tag and take the third [2] element, trim removes whitespace
+        console.log($(elem).find('td').eq(0).html().split('<br>')[2].trim());
+    });
