@@ -1,3 +1,4 @@
+// Scrapes text files from assignment one (results of requesting html from AA) for address data, saving results array as a text file
 var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
 
