@@ -1,9 +1,7 @@
-// Scrapes text files from assignment one (results of requesting html from AA) for address data, saving results array as a text file
 var fs = require('fs');
-var cheerio = require('cheerio'); // npm install cheerio
+var cheerio = require('cheerio');
 
-var content = fs.readFileSync('/home/ubuntu/workspace//week1/zones/10.txt');
-// create an empty array
+var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/07.txt');
 var meetings = [];
 
 var $ = cheerio.load(content);
@@ -16,4 +14,4 @@ $('tbody').find('tr').each(function(i, elem){
     });
 
 console.log(meetings.length); // print number of meetings in meetings array
-fs.writeFileSync('/home/ubuntu/workspace/week3/data/meetings10.txt', JSON.stringify(meetings));
+fs.writeFileSync('/home/ubuntu/workspace/week3/data/meetings07.txt', JSON.stringify(meetings));

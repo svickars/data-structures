@@ -11,8 +11,8 @@ var apiKey = process.env.GMAKEY;
 var address = [];
 var meetingsData = [];
 
-// change this number to match file name
-var fileNumber = '01';
+// change this number according to data set
+var fileNumber = '10';
 
 // read text file from assignment 2 and clean up
 var addList = fs.readFileSync('/home/ubuntu/workspace/week3/data/meetings' + fileNumber + '.txt').toString().replace('["', '').split('","');
@@ -25,30 +25,6 @@ for (var i = 0; i < addList.length; i++) {
     .concat(', New York, NY')
     .split(' ').join('+'));
 }
-
-// console.log(addres);
-
-var addresses = ["63 Fifth Ave, New York, NY", "16 E 16th St, New York, NY", "2 W 13th St, New York, NY"];
-
-
-// // eachSeries in the async module iterates over an array and operates on each item in the array in series
-// async.eachSeries(addresses, function(value, callback) {
-//     var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + addresses + '&key=' + apiKey;
-//     var thisMeeting = new Object;
-//     thisMeeting.address = value;
-//     request(apiRequest, function(err, resp, body) {
-//         if (err) {throw err;}
-//         else {
-//             thisMeeting.clean = JSON.parse(body).results[0].formatted_address;
-//             thisMeeting.latLong = JSON.parse(body).results[0].geometry.location;
-//         }
-//         meetingsData.push(thisMeeting);
-//     });
-//     setTimeout(callback, 2000);
-// }, function() {
-//     console.log(meetingsData); // prints results to console
-//     // fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber + '.txt', JSON.stringify(meetingsData)); // saves results to text file
-// });
 
 // eachSeries in the async module iterates over an array and operates on each item in the array in series
 async.eachSeries(address, function(value, callback) {
@@ -65,5 +41,6 @@ async.eachSeries(address, function(value, callback) {
     });
     setTimeout(callback, 2000);
 }, function() {
-    console.log(meetingsData);
+    console.log(meetingsData); // print results to console
+    fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber +'.txt', JSON.stringify(meetingsData)); // save results to text file
 });
