@@ -9,12 +9,14 @@
 //      db.stations.find().count()
 
 var request = require('request');
+var fs = require('fs');
 
-request('https://www.citibikenyc.com/stations/json', function(error, response, body) {
-    var stationData = JSON.parse(body);
+
+    var addressData = JSON.parse(fs.readFileSync('/home/ubuntu/workspace/week3/data/locations01.txt'));
+    // console.log(addressData);
 
     // Connection URL
-    var url = 'mongodb://' + process.env.IP + ':27017/citibike';
+    var url = 'mongodb://' + process.env.IP + ':27017/aameetingslocation';
 
     // Retrieve
     var MongoClient = require('mongodb').MongoClient; // npm install mongodb
@@ -22,11 +24,11 @@ request('https://www.citibikenyc.com/stations/json', function(error, response, b
     MongoClient.connect(url, function(err, db) {
         if (err) {return console.dir(err);}
 
-        var collection = db.collection('stations');
+        var collection = db.collection('addresses');
 
         // THIS IS WHERE THE DOCUMENT(S) IS/ARE INSERTED TO MONGO:
-        for (var i=0; i < stationData.stationBeanList.length; i++) {
-            collection.insert(stationData.stationBeanList[i]);
+        for (var i=0; i < addressData.addressBeanList.length; i++) {
+            collection.insert(addressData.addressBeanList[i]);
             }
         db.close();
 
