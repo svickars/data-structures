@@ -1,1 +1,35 @@
-{"groupName":"125 - TWO FOR ONE -","locationName":"Harlem Children's Zone Admin. Offices","streetAddress":"35 E 125th St, New York, NY 10035, USA","lat":40.806204,"long":-73.9410197,"meetingNotes":"O 2nd, S 3rd, Anniv. 4th &amp; BB 5th Sat.","meetingTimes":"Saturdays,  4:15 PM to 5:30 PM (B = Beginners meeting),"},{"groupName":"EAST HARLEM - East Harlem","locationName":"Peter Jay Sharpe Building","streetAddress":"223 E 117th St, New York, NY 10035, USA","lat":40.7982694,"long":-73.9382394,"meetingNotes":"Living Sober 1st Tuesday.","meetingTimes":"Tuesdays,  6:30 PM to 7:30 PM (B = Beginners meeting),  Special Interest Living Sober"},{"groupName":"GRUPO NUEVA VIDA - Grupo Nueva Vida","locationName":"","streetAddress":"2126 2nd Ave, New York, NY 10029, USA","lat":40.7926781,"long":-73.9406285,"meetingNotes":"Spanish speaking meetings.","meetingTimes":"Sundays,  5:00 PM to 6:00 PM (OD = Open Discussion meeting),  Mondays,  8:00 PM to 9:00 PM (B = Beginners meeting),  Tuesdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Wednesdays,  8:00 PM to 9:00 PM (C = Closed Discussion meeting),  Thursdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Fridays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Saturdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),"},{"groupName":"HARLEM 1 PM RECOVERY - Harlem 1 PM Recovery","locationName":"Veterans Residence","streetAddress":"22 E 119th St, New York, NY 10035, USA","lat":40.80202999999999,"long":-73.9442569,"meetingNotes":"ID REQUIRED TO ENTER BUILDING","meetingTimes":"Sundays,  1:00 PM to 2:00 PM (T = Tradition meeting),  Mondays,  1:00 PM to 2:00 PM (B = Beginners meeting),"}
+{
+    "zone": [{
+        "groupName": "125 - TWO FOR ONE -",
+        "locationName": "Harlem Children's Zone Admin. Offices",
+        "streetAddress": "35 E 125th St, New York, NY 10035, USA",
+        "lat": 40.806204,
+        "long": -73.9410197,
+        "meetingNotes": "O 2nd, S 3rd, Anniv. 4th &amp; BB 5th Sat.",
+        "meetingTimes": "Saturdays,  4:15 PM to 5:30 PM (B = Beginners meeting),"
+    }, {
+        "groupName": "EAST HARLEM - East Harlem",
+        "locationName": "Peter Jay Sharpe Building",
+        "streetAddress": "223 E 117th St, New York, NY 10035, USA",
+        "lat": 40.7982694,
+        "long": -73.9382394,
+        "meetingNotes": "Living Sober 1st Tuesday.",
+        "meetingTimes": "Tuesdays,  6:30 PM to 7:30 PM (B = Beginners meeting),  Special Interest Living Sober"
+    }, {
+        "groupName": "GRUPO NUEVA VIDA - Grupo Nueva Vida",
+        "locationName": "",
+        "streetAddress": "2126 2nd Ave, New York, NY 10029, USA",
+        "lat": 40.7926781,
+        "long": -73.9406285,
+        "meetingNotes": "Spanish speaking meetings.",
+        "meetingTimes": "Sundays,  5:00 PM to 6:00 PM (OD = Open Discussion meeting),  Mondays,  8:00 PM to 9:00 PM (B = Beginners meeting),  Tuesdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Wednesdays,  8:00 PM to 9:00 PM (C = Closed Discussion meeting),  Thursdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Fridays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),  Saturdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "HARLEM 1 PM RECOVERY - Harlem 1 PM Recovery",
+        "locationName": "Veterans Residence",
+        "streetAddress": "22 E 119th St, New York, NY 10035, USA",
+        "lat": 40.80202999999999,
+        "long": -73.9442569,
+        "meetingNotes": "ID REQUIRED TO ENTER BUILDING",
+        "meetingTimes": "Sundays,  1:00 PM to 2:00 PM (T = Tradition meeting),  Mondays,  1:00 PM to 2:00 PM (B = Beginners meeting),"
+    }]
+}
