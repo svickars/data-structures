@@ -1,20 +1,17 @@
 // IN THE MONGO SHELL: 
-//   CREATE DATABASE meetingsData AND SWITCH TO IT WITH: 
+//   CREATE DATABASE citibike AND SWITCH TO IT WITH: 
 //      use meetingsData
-//   CREATE COLLECTION meetings WITH: 
+//   CREATE COLLECTION stations WITH: 
 //      db.createCollection('meetings')
-//   QUERY THE ENTIRE meetings COLLECTION WITH:
+//   QUERY THE ENTIRE stations COLLECTION WITH:
 //      db.meetings.find()
-//   COUNT THE NUMBER OF DOCUMENTS IN THE meetings COLLECTION WITH:
+//   COUNT THE NUMBER OF DOCUMENTS IN THE stations COLLECTION WITH:
 //      db.meetings.find().count()
 
 var request = require('request');
-var fs = require('fs');
-var fileNumber = '01';
-var content = fs.readFileSync("/home/ubuntu/workspace/week5/data/" + fileNumber + ".json");
 
-var meetingsData = JSON.parse(content);
-console.log(meetingsData);
+request('https://raw.githubusercontent.com/svickars/data-structures/master/week5/data/10.json', function(error, response, body) {
+    var meetingsData = JSON.parse(body);
 
     // Connection URL
     var url = 'mongodb://' + process.env.IP + ':27017/meetingsData';
@@ -28,9 +25,11 @@ console.log(meetingsData);
         var collection = db.collection('meetings');
 
         // THIS IS WHERE THE DOCUMENT(S) IS/ARE INSERTED TO MONGO:
-        for (var i=0; i < meetingsData.length; i++) {
-            collection.insert(meetingsData[i].zone);
+        for (var i=0; i < meetingsData.zone.length; i++) {
+            collection.insert(meetingsData.zone[i]);
             }
         db.close();
 
     }); //MongoClient.connect
+
+}); //request
