@@ -8,7 +8,7 @@ var collName = 'meetings';
 // Connection URL
 var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
 
-// var stationsAbove96 = [];
+var tuesdayMeetings = [];
 
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
@@ -18,7 +18,7 @@ MongoClient.connect(url, function(err, db) {
 
     var collection = db.collection(collName);
 // $gt = greater than
-    collection.find({ latitude: { $gt : 40.783067 } }).toArray(function(err, docs) {
+    collection.find({ meetingTimes: { $gt : 40.783067 } }).toArray(function(err, docs) {
         if (err) {console.log(err)}
         
         else {
