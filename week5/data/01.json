@@ -1,199 +1,179 @@
 {
-    "groupName": "A DESIGN FOR LIVING -",
-    "locationName": "St Andrews Church",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": "@Duane and Centre behind Federal courthouse enter thru driveway behind Church <br>No meetings on Holidays\r\n                        ",
-    "meetingTimes": "Thursdays From  7:00 AM to 8:00 AM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "CHAMBERS STREET - A BRIDGE BACK - Chambers Street - A Bridge Back",
-    "locationName": "St. Andrew's Church",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": "No meetings on Holidays. **LOCATION SUBJECT TO CHANGE- Call Inter-Group",
-    "meetingTimes": "Mondays From  12:15 PM to 1:15 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "CHINATOWN - Chinatown",
-    "locationName": "Church of the Transfiguration",
-    "streetAddress": "29 Mott St, New York, NY 10013, USA",
-    "lat": 40.7148115,
-    "long": -73.99911709999999,
-    "meetingNotes": null,
-    "meetingTimes": "Tuesdays From  6:30 PM to 7:30 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "DOWNTOWN -",
-    "locationName": "St. Margaret's Residence",
-    "streetAddress": "49 Fulton St, New York, NY 10038, USA",
-    "lat": 40.7081354,
-    "long": -74.00394519999999,
-    "meetingNotes": null,
-    "meetingTimes": "Mondays From  7:00 PM to 8:00 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "EXCHANGE VIEWS @ JOHN STREET CHURCH -",
-    "locationName": "",
-    "streetAddress": "44 John St, New York, NY 10038, USA",
-    "lat": 40.7091344,
-    "long": -74.0081019,
-    "meetingNotes": "Thursday 1:30 = Alt. Step/Tradition Email exchangeviews1215@yahoo.com for questions",
-    "meetingTimes": "Mondays From  12:15 PM to 1:15 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "EXCHANGE VIEWS @ ST. MARGARET'S HOUSE -",
-    "locationName": "",
-    "streetAddress": "49 Fulton St, New York, NY 10038, USA",
-    "lat": 40.7081354,
-    "long": -74.00394519999999,
-    "meetingNotes": "This is new location as of 9-12-14 M 7:30 am= Trad 1st Monday.",
-    "meetingTimes": "Mondays From  6:30 AM to 7:30 AM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "FRIDAY DOWNTOWN - Friday Downtown",
-    "locationName": "St. Andrew's Church",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": "Note: Location Subject to change",
-    "meetingTimes": "Fridays From  6:00 PM to 7:00 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "GATEWAY - Gateway",
-    "locationName": "St. Peter's Church",
-    "streetAddress": "22 Barclay St, New York, NY 10007, USA",
-    "lat": 40.7123651,
-    "long": -74.00956409999999,
-    "meetingNotes": null,
-    "meetingTimes": "Sundays From  6:00 PM to 7:00 PM",
-    "meetingType": "BB = Big Book meeting"
-}, {
-    "groupName": "PASSING THE BAR - Passing The Bar",
-    "locationName": "St. Andrew's Church",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": "*Business meeting last Tuesday @ Mar,Jun,Sep &amp; Dec.only. **Promises 1st Wednesday, ***T Last Thursday <br>** LOCATION IS SUBJECT TO CHANGE\r\n                        ",
-    "meetingTimes": "Mondays From  1:15 PM to 2:15 PM",
-    "meetingType": "B = Beginners meeting"
-}, {
-    "groupName": "S.O.B.E.R. -",
-    "locationName": "Saint Peter's Church",
-    "streetAddress": "22 Barclay St, New York, NY 10007, USA",
-    "lat": 40.7123651,
-    "long": -74.00956409999999,
-    "meetingNotes": "Enter on Church Street Lower floor, Parish Office Room",
-    "meetingTimes": "Thursdays From  7:30 PM to 8:45 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "SANE AND SOBER -",
-    "locationName": "Hazelden Tribeca",
-    "streetAddress": "283 W Broadway, New York, NY 10013, USA",
-    "lat": 40.7208017,
-    "long": -74.0048389,
-    "meetingNotes": "Mental Health Challenges in Sobriety. *Alternating Closed &amp; rotating 1, 2, 3 Step every other week. Open &#x2013; Last Wednesday.",
-    "meetingTimes": "Wednesdays From  7:00 PM to 8:00 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "SATURDAY AFTERNOON DISCUSSION - Saturday Afternoon Discussion",
-    "locationName": "Municipal Union Bldg DC 37",
-    "streetAddress": "125 Barclay St, New York, NY 10007, USA",
-    "lat": 40.7145883,
-    "long": -74.01295809999999,
-    "meetingNotes": "Ask security guard for room #",
-    "meetingTimes": "Saturdays From  2:00 PM to 3:15 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "SEAMEN'S GROUP -",
-    "locationName": "St. Margaret's House",
-    "streetAddress": "49 Fulton St, New York, NY 10038, USA",
-    "lat": 40.7081354,
-    "long": -74.00394519999999,
-    "meetingNotes": "*Co-ed meeting, all are welcome.",
-    "meetingTimes": "Tuesdays From  6:00 PM to 7:00 PM",
-    "meetingType": "S = Step meeting"
-}, {
-    "groupName": "SEAPORT - Seaport",
-    "locationName": "St. Margaret's House",
-    "streetAddress": "49 Fulton St, New York, NY 10038, USA",
-    "lat": 40.7081354,
-    "long": -74.00394519999999,
-    "meetingNotes": "11th Step Meditation (Mon), Topic (Thu)",
-    "meetingTimes": "Thursdays From  12:15 PM to 1:15 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "TOWER -",
-    "locationName": "Church of Saint Andrew",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": "Step 1st Wednesday",
-    "meetingTimes": "Wednesdays From  5:30 PM to 6:30 PM",
-    "meetingType": "OD = Open Discussion meeting"
-}, {
-    "groupName": "TRIANGLE GROUP -",
-    "locationName": "Tribeca 12 Building",
-    "streetAddress": "283 W Broadway, New York, NY 10013, USA",
-    "lat": 40.7208017,
-    "long": -74.0048389,
-    "meetingNotes": "Walk thru green doors; first floor, rear. Addtl meditation meeting on Sunday at 11:15 if room full",
-    "meetingTimes": "Sundays From  11:00 AM to 12:00 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "TRIBECA GROUP @ ST. MARGARET'S HOUSE -",
-    "locationName": "",
-    "streetAddress": "49 Fulton St, New York, NY 10038, USA",
-    "lat": 40.7081354,
-    "long": -74.00394519999999,
-    "meetingNotes": "this is the new location as of 9/8/14 tribecagroup2014@gmail.com",
-    "meetingTimes": "Fridays From  7:30 PM to 8:30 PM",
-    "meetingType": "S = Step meeting"
-}, {
-    "groupName": "TRIBECA GROUP @ ST. PETER'S CHURCH - Tribeca",
-    "locationName": "St. Peter's Church",
-    "streetAddress": "22 Barclay St, New York, NY 10007, USA",
-    "lat": 40.7123651,
-    "long": -74.00956409999999,
-    "meetingNotes": "Monday step - 3rd and 11th step workshop <br>tribecagroup2014@gmail.com\r\n                        ",
-    "meetingTimes": "Mondays From  7:45 PM to 8:45 PM",
-    "meetingType": "S = Step meeting"
-}, {
-    "groupName": "WOMEN'S DOWNTOWN AA STEP MEETING -",
-    "locationName": "St. Andrew's Church",
-    "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
-    "lat": 40.7133468,
-    "long": -74.0025814,
-    "meetingNotes": null,
-    "meetingTimes": "Wednesdays From  1:15 PM to 2:15 PM",
-    "meetingType": "S = Step meeting"
-}, {
-    "groupName": "YOUNG PEOPLE'S DIVERSITY -",
-    "locationName": "Hazelden Center",
-    "streetAddress": "283 W Broadway, New York, NY 10013, USA",
-    "lat": 40.7208017,
-    "long": -74.0048389,
-    "meetingNotes": "Lesbian, Gay, Bi-sexual &amp; Transgendered Focus All are welcome.",
-    "meetingTimes": "Wednesdays From  8:30 PM to 9:30 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "YOUNG PEOPLE'S STEP -",
-    "locationName": "Hazelden Center",
-    "streetAddress": "283 W Broadway, New York, NY 10013, USA",
-    "lat": 40.7208017,
-    "long": -74.0048389,
-    "meetingNotes": null,
-    "meetingTimes": "Tuesdays From  7:45 PM to 8:45 PM",
-    "meetingType": "C = Closed Discussion meeting"
-}, {
-    "groupName": "YOUTH ENJOYING SOBRIETY (Y.E.S.) - Youth Enjoying Sobriety (Yes)",
-    "locationName": "Hazelden Center",
-    "streetAddress": "283 W Broadway, New York, NY 10013, USA",
-    "lat": 40.7208017,
-    "long": -74.0048389,
-    "meetingNotes": "Open Anniv. Last Saturday.",
-    "meetingTimes": "Saturdays From  7:00 PM to 8:15 PM",
-    "meetingType": "B = Beginners meeting"
+    "zone": [{
+        "groupName": "A DESIGN FOR LIVING -",
+        "locationName": "St Andrews Church",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": "@Duane and Centre behind Federal courthouse enter thru driveway behind Church <br>No meetings on Holidays",
+        "meetingTimes": "Thursdays,  7:00 AM to 8:00 AM (OD = Open Discussion meeting),  Tuesdays,  7:00 AM to 8:00 AM (B = Beginners meeting),"
+    }, {
+        "groupName": "CHAMBERS STREET - A BRIDGE BACK - Chambers Street - A Bridge Back",
+        "locationName": "St. Andrew's Church",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": "No meetings on Holidays. **LOCATION SUBJECT TO CHANGE- Call Inter-Group",
+        "meetingTimes": "Mondays,  12:15 PM to 1:15 PM (OD = Open Discussion meeting),  Wednesdays,  12:15 PM to 1:15 PM (S = Step meeting),  Thursdays,  12:15 PM to 1:15 PM (B = Beginners meeting),  Fridays,  12:15 PM to 1:15 PM (BB = Big Book meeting),"
+    }, {
+        "groupName": "CHINATOWN - Chinatown",
+        "locationName": "Church of the Transfiguration",
+        "streetAddress": "29 Mott St, New York, NY 10013, USA",
+        "lat": 40.7148115,
+        "long": -73.99911709999999,
+        "meetingNotes": null,
+        "meetingTimes": "Tuesdays,  6:30 PM to 7:30 PM (C = Closed Discussion meeting),"
+    }, {
+        "groupName": "DOWNTOWN -",
+        "locationName": "St. Margaret's Residence",
+        "streetAddress": "49 Fulton St, New York, NY 10038, USA",
+        "lat": 40.7081354,
+        "long": -74.00394519999999,
+        "meetingNotes": null,
+        "meetingTimes": "Mondays,  7:00 PM to 8:00 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "EXCHANGE VIEWS @ JOHN STREET CHURCH -",
+        "locationName": "",
+        "streetAddress": "44 John St, New York, NY 10038, USA",
+        "lat": 40.7091344,
+        "long": -74.0081019,
+        "meetingNotes": "Thursday 1:30 = Alt. Step/Tradition Email exchangeviews1215@yahoo.com for questions",
+        "meetingTimes": "Mondays,  12:15 PM to 1:15 PM (OD = Open Discussion meeting),  Tuesdays,  12:15 PM to 1:15 PM (S = Step meeting),  Thursdays,  12:15 PM to 1:15 PM (OD = Open Discussion meeting),  Mondays,  1:30 PM to 2:30 PM (B = Beginners meeting),  Special Interest Living SoberThursdays,  1:30 PM to 2:30 PM (S = Step meeting),"
+    }, {
+        "groupName": "EXCHANGE VIEWS @ ST. MARGARET'S HOUSE -",
+        "locationName": "",
+        "streetAddress": "49 Fulton St, New York, NY 10038, USA",
+        "lat": 40.7081354,
+        "long": -74.00394519999999,
+        "meetingNotes": "This is new location as of 9-12-14 M 7:30 am= Trad 1st Monday.",
+        "meetingTimes": "Mondays,  6:30 AM to 7:30 AM (C = Closed Discussion meeting),  Special Interest TopicTuesdays,  6:30 AM to 7:30 AM (C = Closed Discussion meeting),  Wednesdays,  6:30 AM to 7:30 AM (C = Closed Discussion meeting),  Special Interest TopicThursdays,  6:30 AM to 7:30 AM (S = Step meeting),  Fridays,  6:30 AM to 7:30 AM (BB = Big Book meeting),  Mondays,  7:30 AM to 8:30 AM (S = Step meeting),  Tuesdays,  7:30 AM to 8:30 AM (OD = Open Discussion meeting),  Wednesdays,  7:30 AM to 8:30 AM (OD = Open Discussion meeting),  Thursdays,  7:30 AM to 8:30 AM (OD = Open Discussion meeting),  Fridays,  7:30 AM to 8:30 AM (B = Beginners meeting),  Sundays,  7:45 AM to 8:45 AM (OD = Open Discussion meeting),  Special Interest Round-Robin Meeting FormatSaturdays,  7:45 AM to 8:45 AM (OD = Open Discussion meeting),  Special Interest Round-Robin Meeting FormatFridays,  5:30 PM to 6:30 PM (B = Beginners meeting),"
+    }, {
+        "groupName": "FRIDAY DOWNTOWN - Friday Downtown",
+        "locationName": "St. Andrew's Church",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": "Note: Location Subject to change",
+        "meetingTimes": "Fridays,  6:00 PM to 7:00 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "GATEWAY - Gateway",
+        "locationName": "St. Peter's Church",
+        "streetAddress": "22 Barclay St, New York, NY 10007, USA",
+        "lat": 40.7123651,
+        "long": -74.00956409999999,
+        "meetingNotes": null,
+        "meetingTimes": "Sundays,  6:00 PM to 7:00 PM (BB = Big Book meeting),"
+    }, {
+        "groupName": "PASSING THE BAR - Passing The Bar",
+        "locationName": "St. Andrew's Church",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": "*Business meeting last Tuesday @ Mar,Jun,Sep &amp; Dec.only. **Promises 1st Wednesday, ***T Last Thursday <br>** LOCATION IS SUBJECT TO CHANGE",
+        "meetingTimes": "Mondays,  1:15 PM to 2:15 PM (B = Beginners meeting),  Tuesdays,  1:15 PM to 2:15 PM (C = Closed Discussion meeting),  Wednesdays,  1:15 PM to 2:15 PM (C = Closed Discussion meeting),  Special Interest PromisesThursdays,  1:15 PM to 2:15 PM (S = Step meeting),  Fridays,  1:15 PM to 2:15 PM (BB = Big Book meeting),"
+    }, {
+        "groupName": "S.O.B.E.R. -",
+        "locationName": "Saint Peter's Church",
+        "streetAddress": "22 Barclay St, New York, NY 10007, USA",
+        "lat": 40.7123651,
+        "long": -74.00956409999999,
+        "meetingNotes": "Enter on Church Street Lower floor, Parish Office Room",
+        "meetingTimes": "Thursdays,  7:30 PM to 8:45 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "SANE AND SOBER -",
+        "locationName": "Hazelden Tribeca",
+        "streetAddress": "283 W Broadway, New York, NY 10013, USA",
+        "lat": 40.7208017,
+        "long": -74.0048389,
+        "meetingNotes": "Mental Health Challenges in Sobriety. *Alternating Closed &amp; rotating 1, 2, 3 Step every other week. Open &#x2013; Last Wednesday.",
+        "meetingTimes": "Wednesdays,  7:00 PM to 8:00 PM (C = Closed Discussion meeting),  Special Interest Mental Health Issues in Sobriety"
+    }, {
+        "groupName": "SATURDAY AFTERNOON DISCUSSION - Saturday Afternoon Discussion",
+        "locationName": "Municipal Union Bldg DC 37",
+        "streetAddress": "125 Barclay St, New York, NY 10007, USA",
+        "lat": 40.7145883,
+        "long": -74.01295809999999,
+        "meetingNotes": "Ask security guard for room #",
+        "meetingTimes": "Saturdays,  2:00 PM to 3:15 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "SEAMEN'S GROUP -",
+        "locationName": "St. Margaret's House",
+        "streetAddress": "49 Fulton St, New York, NY 10038, USA",
+        "lat": 40.7081354,
+        "long": -74.00394519999999,
+        "meetingNotes": "*Co-ed meeting, all are welcome.",
+        "meetingTimes": "Tuesdays,  6:00 PM to 7:00 PM (S = Step meeting),"
+    }, {
+        "groupName": "SEAPORT - Seaport",
+        "locationName": "St. Margaret's House",
+        "streetAddress": "49 Fulton St, New York, NY 10038, USA",
+        "lat": 40.7081354,
+        "long": -74.00394519999999,
+        "meetingNotes": "11th Step Meditation (Mon), Topic (Thu)",
+        "meetingTimes": "Thursdays,  12:15 PM to 1:15 PM (C = Closed Discussion meeting),  Fridays,  12:15 PM to 1:15 PM (S = Step meeting),  Mondays,  12:15 PM to 1:15 PM (S = Step meeting),  Special Interest MeditationWednesdays,  12:15 PM to 1:15 PM (BB = Big Book meeting),  Tuesdays,  12:15 PM to 1:15 PM (B = Beginners meeting),"
+    }, {
+        "groupName": "TOWER -",
+        "locationName": "Church of Saint Andrew",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": "Step 1st Wednesday",
+        "meetingTimes": "Wednesdays,  5:30 PM to 6:30 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "TRIANGLE GROUP -",
+        "locationName": "Tribeca 12 Building",
+        "streetAddress": "283 W Broadway, New York, NY 10013, USA",
+        "lat": 40.7208017,
+        "long": -74.0048389,
+        "meetingNotes": "Walk thru green doors; first floor, rear. Addtl meditation meeting on Sunday at 11:15 if room full",
+        "meetingTimes": "Sundays,  11:00 AM to 12:00 PM (C = Closed Discussion meeting),  Special Interest MeditationFridays,  12:30 PM to 1:30 PM (BB = Big Book meeting),  Mondays,  6:30 PM to 7:30 PM (C = Closed Discussion meeting),  Thursdays,  6:30 PM to 7:30 PM (C = Closed Discussion meeting),"
+    }, {
+        "groupName": "TRIBECA GROUP @ ST. MARGARET'S HOUSE -",
+        "locationName": "",
+        "streetAddress": "49 Fulton St, New York, NY 10038, USA",
+        "lat": 40.7081354,
+        "long": -74.00394519999999,
+        "meetingNotes": "this is the new location as of 9/8/14 tribecagroup2014@gmail.com",
+        "meetingTimes": "Fridays,  7:30 PM to 8:30 PM (S = Step meeting),  Saturdays,  7:30 PM to 8:30 PM (OD = Open Discussion meeting),  Tuesdays,  7:30 PM to 8:30 PM (BB = Big Book meeting),  Thursdays,  7:30 PM to 8:30 PM (B = Beginners meeting),"
+    }, {
+        "groupName": "TRIBECA GROUP @ ST. PETER'S CHURCH - Tribeca",
+        "locationName": "St. Peter's Church",
+        "streetAddress": "22 Barclay St, New York, NY 10007, USA",
+        "lat": 40.7123651,
+        "long": -74.00956409999999,
+        "meetingNotes": "Monday step - 3rd and 11th step workshop <br>tribecagroup2014@gmail.com",
+        "meetingTimes": "Mondays,  7:45 PM to 8:45 PM (S = Step meeting),  Wednesdays,  8:00 PM to 9:00 PM (OD = Open Discussion meeting),"
+    }, {
+        "groupName": "WOMEN'S DOWNTOWN AA STEP MEETING -",
+        "locationName": "St. Andrew's Church",
+        "streetAddress": "St. Andrew's Church, 20 Cardinal Hayes Pl, New York, NY 10007, USA",
+        "lat": 40.7133468,
+        "long": -74.0025814,
+        "meetingNotes": null,
+        "meetingTimes": "Wednesdays,  1:15 PM to 2:15 PM (S = Step meeting),"
+    }, {
+        "groupName": "YOUNG PEOPLE'S DIVERSITY -",
+        "locationName": "Hazelden Center",
+        "streetAddress": "283 W Broadway, New York, NY 10013, USA",
+        "lat": 40.7208017,
+        "long": -74.0048389,
+        "meetingNotes": "Lesbian, Gay, Bi-sexual &amp; Transgendered Focus All are welcome.",
+        "meetingTimes": "Wednesdays,  8:30 PM to 9:30 PM (C = Closed Discussion meeting),  Special Interest Gay, Lesbian and Bisexual"
+    }, {
+        "groupName": "YOUNG PEOPLE'S STEP -",
+        "locationName": "Hazelden Center",
+        "streetAddress": "283 W Broadway, New York, NY 10013, USA",
+        "lat": 40.7208017,
+        "long": -74.0048389,
+        "meetingNotes": null,
+        "meetingTimes": "Tuesdays,  7:45 PM to 8:45 PM (C = Closed Discussion meeting),  Special Interest Young People"
+    }, {
+        "groupName": "YOUTH ENJOYING SOBRIETY (Y.E.S.) - Youth Enjoying Sobriety (Yes)",
+        "locationName": "Hazelden Center",
+        "streetAddress": "283 W Broadway, New York, NY 10013, USA",
+        "lat": 40.7208017,
+        "long": -74.0048389,
+        "meetingNotes": "Open Anniv. Last Saturday.",
+        "meetingTimes": "Saturdays,  7:00 PM to 8:15 PM (B = Beginners meeting),  Special Interest Young People"
+    }]
 }

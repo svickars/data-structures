@@ -4,7 +4,7 @@ var cheerio = require('cheerio'); // npm install cheerio
 var async = require('async'); // npm install async
 
 var apiKey = process.env.GMAKEY; 
-var zoneNumber = '01';
+var zoneNumber = '10';
 
 // read zone html files from assignment 1 and location files (using Google Maps API) from assignment 3
 var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/'+zoneNumber+'.txt');
@@ -29,18 +29,19 @@ $('tbody').find('tr').each(function(i, elem){
         if ($(elem).find('div').eq(0).html() == null) {
             meetingNotes.push($(elem).find('div').eq(0).html());
         } else {
-            meetingNotes.push($(elem).find('div').eq(0).html().replace('<br>','').replace(' \r\n                        \t', '').replace(' \r\n                        ', ''));
+            meetingNotes.push($(elem).find('div').eq(0).html().replace('<br>','').trim());
         }
         // only getting the data for *one* meeting time for each group, not sure where to go from here. divide into meetingDay, meetingStartTime, meetingEndTime??
-        meetingTime.push($(elem).find('td').eq(1).html().split('<br>')[0].split('\t    <b>').pop().split('<br>').shift().replace('<b>','').replace('</b>','').replace('to</b>','to').trim());
-        meetingType.push($(elem).find('td').eq(1).html().split('<br>')[1].split('</b>').pop().split('<br>').shift().trim());
+        // meetingTime.push($(elem).find('td').eq(1).html().split('<br>')[0].split('\t    <b>').pop().split('<br>').shift().replace('<b>','').replace('</b>','').replace('to</b>','to').trim());
+        // meetingType.push($(elem).find('td').eq(1).html().split('<br>')[1].split('</b>').pop().split('<br>').shift().trim());
+        meetingTime.push($(elem).find('td').eq(1).text().replace(/ From /g, ', ').replace(/Meeting Type /g, '(').replace(/meeting/g, 'meeting), ').replace(/\r\n\t\t\t \t\t\t\r\n                    \t\r\n                    \t\r\n\t\t\t\t  \t    /g, '').trim());
     });
 
-console.log(meetingTime);
+// console.log(meetingTime);
 
-// for (var i = 0; i < meetingGroupName.length; i++) {
-//         meetingData.push(JSON.stringify({ groupName: meetingGroupName[i], locationName: meetingLocationName[i], streetAddress: JSON.parse(googleContent)[i].clean, lat: JSON.parse(googleContent)[i].latLong.lat, long: JSON.parse(googleContent)[i].latLong.lng, meetingNotes: meetingNotes[i], meetingTimes: meetingTime[i], meetingType: meetingType[i]}));
-// }
+for (var i = 0; i < meetingGroupName.length; i++) {
+        meetingData.push(JSON.stringify({ groupName: meetingGroupName[i], locationName: meetingLocationName[i], streetAddress: JSON.parse(googleContent)[i].clean, lat: JSON.parse(googleContent)[i].latLong.lat, long: JSON.parse(googleContent)[i].latLong.lng, meetingNotes: meetingNotes[i], meetingTimes: meetingTime[i], meetingType: meetingType[i]}));
+}
 
 // console.log(meetingData);
-// fs.writeFile('/home/ubuntu/workspace/week5/data/' + zoneNumber + '.json', meetingData)
+fs.writeFile('/home/ubuntu/workspace/week5/data/' + zoneNumber + '.json', meetingData)

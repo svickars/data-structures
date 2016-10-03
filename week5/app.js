@@ -2,13 +2,13 @@
 
 var datetimeStart = new Date();
 
-var dbName = 'citibike';
-var collName = 'stations';
+var dbName = 'meetingsData';
+var collName = 'meetings';
 
 // Connection URL
 var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
 
-var stationsAbove96 = [];
+// var stationsAbove96 = [];
 
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
