@@ -2,46 +2,76 @@ var fs = require('fs');
 var request = require('request'); // npm install request
 var cheerio = require('cheerio'); // npm install cheerio
 var async = require('async'); // npm install async
+var asyncEachObject = require('async-each-object');
 
-var apiKey = process.env.GMAKEY; 
-var zoneNumber = '10';
+// SETTING ENVIRONMENT VARIABLES (in Linux): 
+// export NEW_VAR="Content of NEW_VAR variable"
+// printenv | grep NEW_VAR
+var apiKey = process.env.GMAKEY;
+var zoneNumber = '04';
 
-// read zone html files from assignment 1 and location files (using Google Maps API) from assignment 3
-var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/'+zoneNumber+'.txt');
-var googleContent = fs.readFileSync('/home/ubuntu/workspace/week3/data/locations' + zoneNumber + '.txt');
+// // read zone html files from assignment 1
+var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/' + zoneNumber + '.txt');
 
-// empty arrays to store meeting data
-var meetingStreetAddress = [];
-var meetingLocationName = [];
-var meetingGroupName = [];
-var meetingNotes = [];
-var meetingTime = [];
-var meetingType = [];
-var meetingData = [];
+// // empty array to store meeting data
+var meetingsData = [];
 
 var $ = cheerio.load(content);
 
 $('tbody').find('tr').each(function(i, elem){
-        meetingGroupName.push($(elem).find('td').eq(0).html().split('<br>')[1].split('<b>').pop().split('</b>').shift().replace('&apos;', '\'').trim());
-        meetingLocationName.push($(elem).find('td').eq(0).html().split('<br>')[0].split('0;">').pop().split('</h4>').shift().replace('&apos;', '\'').trim());
-        meetingStreetAddress.push($(elem).find('td').eq(0).html().split('<br>')[2].split(',').shift().concat(', New York, NY').split(' ').join('+').trim());
         
-        if ($(elem).find('div').eq(0).html() == null) {
-            meetingNotes.push($(elem).find('div').eq(0).html());
-        } else {
-            meetingNotes.push($(elem).find('div').eq(0).html().replace('<br>','').trim());
+        var data = $(elem).find('td').eq(1).html().replace('\r\n                    \t\t\r\n\t\t\t\t\t', '').split('<br>\r\n                    \t<br>');
+        
+        for (var i=0; i < data.length; i++) {
+        // ignore blank items
+            if (data[i] !== '') {
+                
+                var meetings = new Object;
+                
+                // find meeting information: group name, notes and location data
+                meetings.groupName = $(elem).find('td').eq(0).html().split('<br>')[1].split('<b>').pop().split('</b>').shift().replace(/&apos;/g, '\'').trim();
+                meetings.locationName = $(elem).find('td').eq(0).html().split('<br>')[0].split('0;">').pop().split('</h4>').shift().replace(/&apos;/g, '\'').trim();
+                meetings.streetAddress = $(elem).find('td').eq(0).html().split('<br>')[2].split(',').shift().concat(', New York, NY').split(' ').join('+').trim();
+                // this will be written over by latLong data below
+                if ($(elem).find('div').eq(0).html() !== null) {
+                    meetings.notes = $(elem).find('div').eq(0).html().replace(/<br>/g,'').trim();
+                }
+                
+                // find meeting infomration: days, times, and meeting types
+                meetings.day = data[i].split('From')[0].replace(/<b>/g,'').trim();
+                meetings.startTime = convertTo24Hour(data[i].split('From')[1].split('to')[0].replace(/<b>/g,'').replace(/<\/b>/g,'').trim());
+                meetings.endTime = convertTo24Hour(data[i].split('to')[1].split('<br>')[0].replace(/<b>/g,'').replace(/<\/b>/g,'').trim());
+                meetings.meetingType = data[i].split('Meeting Type').pop().split('<br>').shift().replace(' ','').replace(/<\/b>/g,'').replace('= ','(').replace('meeting ','meeting)').trim();
+                
+                meetingsData.push(meetings);
+            }
         }
-        // only getting the data for *one* meeting time for each group, not sure where to go from here. divide into meetingDay, meetingStartTime, meetingEndTime??
-        // meetingTime.push($(elem).find('td').eq(1).html().split('<br>')[0].split('\t    <b>').pop().split('<br>').shift().replace('<b>','').replace('</b>','').replace('to</b>','to').trim());
-        // meetingType.push($(elem).find('td').eq(1).html().split('<br>')[1].split('</b>').pop().split('<br>').shift().trim());
-        meetingTime.push($(elem).find('td').eq(1).text().replace(/ From /g, ', ').replace(/Meeting Type /g, '(').replace(/meeting/g, 'meeting), ').replace(/\r\n\t\t\t \t\t\t\r\n                    \t\r\n                    \t\r\n\t\t\t\t  \t    /g, '').trim());
     });
 
-// console.log(meetingTime);
-
-for (var i = 0; i < meetingGroupName.length; i++) {
-        meetingData.push(JSON.stringify({ groupName: meetingGroupName[i], locationName: meetingLocationName[i], streetAddress: JSON.parse(googleContent)[i].clean, lat: JSON.parse(googleContent)[i].latLong.lat, long: JSON.parse(googleContent)[i].latLong.lng, meetingNotes: meetingNotes[i], meetingTimes: meetingTime[i], meetingType: meetingType[i]}));
+// thanks to Joshua for this idea! should hopefully help with the DB later
+function convertTo24Hour(time) {
+    var hours = time.split(':')[0];
+    var minutes = time.split(':')[1].split(' ')[0];
+    var period = time.split(' ')[1];
+    if (period === 'PM' && hours <= 11) {
+        hours = String(Number(hours) + 12);
+    }
+    return Number(hours + minutes);
 }
 
-// console.log(meetingData);
-fs.writeFile('/home/ubuntu/workspace/week5/data/' + zoneNumber + '.json', meetingData)
+
+// console.log(meetingsData);
+// fs.writeFileSync('/home/ubuntu/workspace/week5/data/' + zoneNumber + '.json', JSON.stringify(meetingsData));
+
+async.eachObject(meetingsData, function(value, key, callback) {
+    var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + value.streetAddress + '&key=' + apiKey;
+    request(apiRequest, function(err, resp, body) {
+        if (err) { throw err; }
+        value.address = JSON.parse(body).results[0].formatted_address;
+        value.latLong = JSON.parse(body).results[0].geometry.location;
+    });
+    setTimeout(callback, 2000);
+}, function() {
+    console.log(meetingsData);
+    fs.writeFileSync('/home/ubuntu/workspace/week5/data/' + zoneNumber + '.json', JSON.stringify(meetingsData));
+});
