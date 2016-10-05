@@ -42,5 +42,5 @@ async.eachSeries(address, function(value, callback) {
     setTimeout(callback, 2000);
 }, function() {
     console.log(meetingsData); // print results to console
-    fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber +'.txt', JSON.stringify(meetingsData)); // save results to text file
+    // fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber +'.txt', JSON.stringify(meetingsData)); // save results to text file
 });
