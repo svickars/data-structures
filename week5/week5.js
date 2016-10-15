@@ -8,7 +8,7 @@ var asyncEachObject = require('async-each-object');
 // export NEW_VAR="Content of NEW_VAR variable"
 // printenv | grep NEW_VAR
 var apiKey = process.env.GMAKEY;
-var zoneNumber = '04';
+var zoneNumber = '03';
 
 // // read zone html files from assignment 1
 var content = fs.readFileSync('/home/ubuntu/workspace/week1/zones/' + zoneNumber + '.txt');
