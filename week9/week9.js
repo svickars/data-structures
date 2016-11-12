@@ -9,7 +9,7 @@ var ep = process.env.DBEP; // aws db endpoint
 var conString = "postgres://" + un + ":" + pw + "@" + ep + "/" + db;
 // console.log(conString);
 
-var fsr, led, force, fsrG, fsrR, fsrADC, fsrV, fullness;
+var fsr, led, force, fsrG, fsrR, fsrADC, fsrV;
 var VCC = 4.98;
 var R_DIV = 3230.0;
 
@@ -32,21 +32,11 @@ new five.Board().on("ready", function() {
           force = (fsrG - 0.00075) / 0.00000032639;
         else
           force = fsrG / 0.000000642857;
-        if (force <= 100){
-          fullness = "empty";
-        }else{
-              if (force <= 1000){
-                fullness = "not full";
-            }else{
-              fullness = "full";
-            }
-        }
         console.log("resistance: " + fsrR + " ohms ");
         console.log("force: " + force + " g");
-        console.log("Auggie's bowl is " + fullness)
 
-        // var createTableQuery = "CREATE TABLE superbowlII (dateCreated timestamp DEFAULT current_timestamp, force numeric, resistance numeric, fullness varchar(15));"
-        var insertIntoQuery = "INSERT INTO superbowlII VALUES (DEFAULT, " + force + ", " + fsrR + ", '" + fullness + "');"
+        // var createTableQuery = "CREATE TABLE walking (dateCreated timestamp DEFAULT current_timestamp, force numeric, resistance numeric);"
+        var insertIntoQuery = "INSERT INTO walking VALUES (DEFAULT, " + force + ", " + fsrR + ");"
 
         pg.connect(conString, function(err, client, done) {
           if(err) {
