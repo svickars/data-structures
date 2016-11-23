@@ -9,7 +9,7 @@ var ep = process.env.DBEP; // aws db endpoint
 var conString = "postgres://" + un + ":" + pw + "@" + ep + "/" + db;
 
 
-var query = "SELECT * FROM superbowlII ORDER BY dateCreated;"
+var query = "SELECT * FROM walking ORDER BY dateCreated;"
 
 pg.connect(conString, function(err, client, done) {
     if (err) {

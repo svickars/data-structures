@@ -1,0 +1,611 @@
+[{
+    "groupName": "A NEW WAY OF LIVING - A New Way Of Living",
+    "locationName": "Columbia Presbyterian Hospital",
+    "streetAddress": "701+West+168th+Street+@+Fort+Washington+Avenue,+New+York,+NY",
+    "notes": "Check with Security for Room # T Last Thu, Living Sober &amp; Anniv Last Fri. No meetings on public holidays",
+    "day": "Thursdays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.8421668,
+        "lng": -73.9422922
+    },
+    "address": "Fort Washington Ave & W 168th St, New York, NY 10032, USA"
+}, {
+    "groupName": "A NEW WAY OF LIVING - A New Way Of Living",
+    "locationName": "Columbia Presbyterian Hospital",
+    "streetAddress": "701+West+168th+Street+@+Fort+Washington+Avenue,+New+York,+NY",
+    "notes": "Check with Security for Room # T Last Thu, Living Sober &amp; Anniv Last Fri. No meetings on public holidays",
+    "day": "Fridays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8421668,
+        "lng": -73.9422922
+    },
+    "address": "Fort Washington Ave & W 168th St, New York, NY 10032, USA"
+}, {
+    "groupName": "A NEW WAY OF LIVING - A New Way Of Living",
+    "locationName": "Columbia Presbyterian Hospital",
+    "streetAddress": "701+West+168th+Street+@+Fort+Washington+Avenue,+New+York,+NY",
+    "notes": "Check with Security for Room # T Last Thu, Living Sober &amp; Anniv Last Fri. No meetings on public holidays",
+    "day": "Mondays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.8421668,
+        "lng": -73.9422922
+    },
+    "address": "Fort Washington Ave & W 168th St, New York, NY 10032, USA"
+}, {
+    "groupName": "A NEW WAY OF LIVING - A New Way Of Living",
+    "locationName": "Columbia Presbyterian Hospital",
+    "streetAddress": "701+West+168th+Street+@+Fort+Washington+Avenue,+New+York,+NY",
+    "notes": "Check with Security for Room # T Last Thu, Living Sober &amp; Anniv Last Fri. No meetings on public holidays",
+    "day": "Tuesdays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.8421668,
+        "lng": -73.9422922
+    },
+    "address": "Fort Washington Ave & W 168th St, New York, NY 10032, USA"
+}, {
+    "groupName": "A NEW WAY OF LIVING - A New Way Of Living",
+    "locationName": "Columbia Presbyterian Hospital",
+    "streetAddress": "701+West+168th+Street+@+Fort+Washington+Avenue,+New+York,+NY",
+    "notes": "Check with Security for Room # T Last Thu, Living Sober &amp; Anniv Last Fri. No meetings on public holidays",
+    "day": "Wednesdays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8421668,
+        "lng": -73.9422922
+    },
+    "address": "Fort Washington Ave & W 168th St, New York, NY 10032, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:I) - Bridge To Sobriety",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Living Sober Last Tuesday, T Last Wednesday",
+    "day": "Mondays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:I) - Bridge To Sobriety",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Living Sober Last Tuesday, T Last Wednesday",
+    "day": "Tuesdays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:I) - Bridge To Sobriety",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Living Sober Last Tuesday, T Last Wednesday",
+    "day": "Wednesdays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:I) - Bridge To Sobriety",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Living Sober Last Tuesday, T Last Wednesday",
+    "day": "Thursdays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:I) - Bridge To Sobriety",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Living Sober Last Tuesday, T Last Wednesday",
+    "day": "Fridays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "BRIDGE TO SOBRIETY (:II) -",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "10th Step",
+    "day": "Sundays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "DYCKMAN - Dyckman",
+    "locationName": "St. Jude's School",
+    "streetAddress": "431+West+204th+Street,+New+York,+NY",
+    "notes": "BB 1st &amp; T Last Wed.",
+    "day": "Sundays",
+    "startTime": 1200,
+    "endTime": 1300,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.8621364,
+        "lng": -73.9189224
+    },
+    "address": "431 W 204th St, New York, NY 10034, USA"
+}, {
+    "groupName": "DYCKMAN - Dyckman",
+    "locationName": "St. Jude's School",
+    "streetAddress": "431+West+204th+Street,+New+York,+NY",
+    "notes": "BB 1st &amp; T Last Wed.",
+    "day": "Wednesdays",
+    "startTime": 1900,
+    "endTime": 2000,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.8621364,
+        "lng": -73.9189224
+    },
+    "address": "431 W 204th St, New York, NY 10034, USA"
+}, {
+    "groupName": "FOUND-A-WAY - Found-A-Way",
+    "locationName": "Church of the Intercession",
+    "streetAddress": "550+West+155th+Street,+New+York,+NY",
+    "notes": "Men&apos;s meeting &amp; Gay men&apos;s focus. All are welcome. Anniversary last Sat., 1st Sat.=S followed by Bus. Mtg.",
+    "day": "Saturdays",
+    "startTime": 1230,
+    "endTime": 1400,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8321259,
+        "lng": -73.9452508
+    },
+    "address": "550 W 155th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO DESPERTAR - Grupo Despertar",
+    "locationName": "Casita Esperanza",
+    "streetAddress": "557+West+156th+Street,+New+York,+NY",
+    "notes": "Spanish Speaking Meetings.",
+    "day": "Wednesdays",
+    "startTime": 2000,
+    "endTime": 2200,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.833379,
+        "lng": -73.94459800000001
+    },
+    "address": "557 W 156th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO DESPERTAR - Grupo Despertar",
+    "locationName": "Casita Esperanza",
+    "streetAddress": "557+West+156th+Street,+New+York,+NY",
+    "notes": "Spanish Speaking Meetings.",
+    "day": "Fridays",
+    "startTime": 2000,
+    "endTime": 2200,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.833379,
+        "lng": -73.94459800000001
+    },
+    "address": "557 W 156th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO LA FLAMA PANAMERICANA - Grupo La Flama Panamericana",
+    "locationName": "",
+    "streetAddress": "35+Thayer+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Sundays",
+    "startTime": 1700,
+    "endTime": 1900,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.862594,
+        "lng": -73.926186
+    },
+    "address": "35 Thayer St, New York, NY 10040, USA"
+}, {
+    "groupName": "GRUPO LA FLAMA PANAMERICANA - Grupo La Flama Panamericana",
+    "locationName": "",
+    "streetAddress": "35+Thayer+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Tuesdays",
+    "startTime": 2000,
+    "endTime": 2200,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.862594,
+        "lng": -73.926186
+    },
+    "address": "35 Thayer St, New York, NY 10040, USA"
+}, {
+    "groupName": "GRUPO LA FLAMA PANAMERICANA - Grupo La Flama Panamericana",
+    "locationName": "",
+    "streetAddress": "35+Thayer+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Thursdays",
+    "startTime": 2000,
+    "endTime": 2200,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.862594,
+        "lng": -73.926186
+    },
+    "address": "35 Thayer St, New York, NY 10040, USA"
+}, {
+    "groupName": "GRUPO LA FLAMA PANAMERICANA - Grupo La Flama Panamericana",
+    "locationName": "",
+    "streetAddress": "35+Thayer+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Saturdays",
+    "startTime": 2000,
+    "endTime": 2200,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.862594,
+        "lng": -73.926186
+    },
+    "address": "35 Thayer St, New York, NY 10040, USA"
+}, {
+    "groupName": "GRUPO LIBERTAD - Grupo Libertad",
+    "locationName": "Episcopal Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Tuesdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "GRUPO LIBERTAD - Grupo Libertad",
+    "locationName": "Episcopal Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Thursdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "GRUPO LIBERTAD - Grupo Libertad",
+    "locationName": "Episcopal Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Thursdays",
+    "startTime": 2130,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "GRUPO LIBERTAD - Grupo Libertad",
+    "locationName": "Episcopal Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Tuesdays",
+    "startTime": 2130,
+    "endTime": 2230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "GRUPO RECUPERACION - Grupo Recuperacion",
+    "locationName": "Church Santa Rosa de Lima",
+    "streetAddress": "502+West165th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Sundays",
+    "startTime": 1430,
+    "endTime": 1530,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.8380556,
+        "lng": -73.93891789999999
+    },
+    "address": "502 W 165th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO RECUPERACION - Grupo Recuperacion",
+    "locationName": "Church Santa Rosa de Lima",
+    "streetAddress": "502+West165th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Tuesdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8380556,
+        "lng": -73.93891789999999
+    },
+    "address": "502 W 165th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO RECUPERACION - Grupo Recuperacion",
+    "locationName": "Church Santa Rosa de Lima",
+    "streetAddress": "502+West165th+Street,+New+York,+NY",
+    "notes": "Spanish speaking meetings.",
+    "day": "Thursdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.8380556,
+        "lng": -73.93891789999999
+    },
+    "address": "502 W 165th St, New York, NY 10032, USA"
+}, {
+    "groupName": "GRUPO UN NUEVO AMANECER - Grupo Un Nuevo Amanecer",
+    "locationName": "Our Lady Queen of Martyrs",
+    "streetAddress": "91+Arden+Street,+New+York,+NY",
+    "notes": "Spanish Speaking Meetings.",
+    "day": "Mondays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8638625,
+        "lng": -73.9280718
+    },
+    "address": "91 Arden St, New York, NY 10040, USA"
+}, {
+    "groupName": "GRUPO UN NUEVO AMANECER - Grupo Un Nuevo Amanecer",
+    "locationName": "Our Lady Queen of Martyrs",
+    "streetAddress": "91+Arden+Street,+New+York,+NY",
+    "notes": "Spanish Speaking Meetings.",
+    "day": "Fridays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.8638625,
+        "lng": -73.9280718
+    },
+    "address": "91 Arden St, New York, NY 10040, USA"
+}, {
+    "groupName": "HAPPY DESTINY -",
+    "locationName": "Holy Trinity Episcopal Church",
+    "streetAddress": "20+Cumming+Street,+New+York,+NY",
+    "notes": "LGBT All welcome. Sun= As Bill See it; Wed=Steps1-3 Sun.meeting in Sanctuary; Wed meeting in Auditorium",
+    "day": "Sundays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8666437,
+        "lng": -73.9268712
+    },
+    "address": "20 Cumming St, New York, NY 10034, USA"
+}, {
+    "groupName": "HAPPY DESTINY -",
+    "locationName": "Holy Trinity Episcopal Church",
+    "streetAddress": "20+Cumming+Street,+New+York,+NY",
+    "notes": "LGBT All welcome. Sun= As Bill See it; Wed=Steps1-3 Sun.meeting in Sanctuary; Wed meeting in Auditorium",
+    "day": "Wednesdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.8666437,
+        "lng": -73.9268712
+    },
+    "address": "20 Cumming St, New York, NY 10034, USA"
+}, {
+    "groupName": "INWOOD FORT TRYON - Inwood-Ft. Tryon",
+    "locationName": "Mount Washington Presbyterian Church",
+    "streetAddress": "84+Vermilyea+Avenue,+New+York,+NY",
+    "notes": "Sat. Closed meeting rotating step/speaker/trad/anniversary In Dec. first two weeks will be Step meeting",
+    "day": "Saturdays",
+    "startTime": 1100,
+    "endTime": 1200,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.8660417,
+        "lng": -73.9232711
+    },
+    "address": "84 Vermilyea Ave, New York, NY 10034, USA"
+}, {
+    "groupName": "INWOOD FORT TRYON - Inwood-Ft. Tryon",
+    "locationName": "Mount Washington Presbyterian Church",
+    "streetAddress": "84+Vermilyea+Avenue,+New+York,+NY",
+    "notes": "Sat. Closed meeting rotating step/speaker/trad/anniversary In Dec. first two weeks will be Step meeting",
+    "day": "Saturdays",
+    "startTime": 1100,
+    "endTime": 1200,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8660417,
+        "lng": -73.9232711
+    },
+    "address": "84 Vermilyea Ave, New York, NY 10034, USA"
+}, {
+    "groupName": "INWOOD FORT TRYON - Inwood-Ft. Tryon",
+    "locationName": "Mount Washington Presbyterian Church",
+    "streetAddress": "84+Vermilyea+Avenue,+New+York,+NY",
+    "notes": "Sat. Closed meeting rotating step/speaker/trad/anniversary In Dec. first two weeks will be Step meeting",
+    "day": "Tuesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8660417,
+        "lng": -73.9232711
+    },
+    "address": "84 Vermilyea Ave, New York, NY 10034, USA"
+}, {
+    "groupName": "ISHAM PARK - Isham Park",
+    "locationName": "Church of the Good Shepherd",
+    "streetAddress": "620+Isham+Street,+New+York,+NY",
+    "notes": "Open Anniv. Last Mon.",
+    "day": "Mondays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8692105,
+        "lng": -73.9207583
+    },
+    "address": "620 Isham St, New York, NY 10034, USA"
+}, {
+    "groupName": "PROGRESS NOT PERFECTION -",
+    "locationName": "COATHA Church on the Hill Senior Center",
+    "streetAddress": "2005+Amsterdam+Avenue,+New+York,+NY",
+    "notes": "Open Discussion 1st, 2nd, 4th,and 5th when applicable. OPEN meeting is 3rd Fridays",
+    "day": "Fridays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.8342672,
+        "lng": -73.94078800000001
+    },
+    "address": "2005 Amsterdam Ave, New York, NY 10032, USA"
+}, {
+    "groupName": "THE MEN UPSTAIRS -",
+    "locationName": "Our Saviour's Atonement Lutheran Church",
+    "streetAddress": "178+Bennett+Avenue,+New+York,+NY",
+    "notes": "Men&apos;s Meeting",
+    "day": "Mondays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8560587,
+        "lng": -73.93446569999999
+    },
+    "address": "178 Bennett Ave, New York, NY 10040, USA"
+}, {
+    "groupName": "THE MISSING LINK - Missing Link",
+    "locationName": "Our Saviour's Atonement Church",
+    "streetAddress": "178+Bennett+Avenue,+New+York,+NY",
+    "notes": "1st- Step, 2nd-OD, 3rd-Beg., 4th- BB, 5th- OD",
+    "day": "Fridays",
+    "startTime": 1900,
+    "endTime": 2000,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.8560587,
+        "lng": -73.93446569999999
+    },
+    "address": "178 Bennett Ave, New York, NY 10040, USA"
+}, {
+    "groupName": "UPPER MANHATTAN - Upper Manhattan",
+    "locationName": "Our Lady Queen of Martyrs",
+    "streetAddress": "91+Arden+Street,+New+York,+NY",
+    "day": "Thursdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.8638625,
+        "lng": -73.9280718
+    },
+    "address": "91 Arden St, New York, NY 10040, USA"
+}, {
+    "groupName": "UPTOWN SATURDAY NIGHT - Uptown Saturday Night",
+    "locationName": "Holy Trinity Church",
+    "streetAddress": "20+Cummings+Street,+New+York,+NY",
+    "day": "Saturdays",
+    "startTime": 1900,
+    "endTime": 2000,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8664722,
+        "lng": -73.926452
+    },
+    "address": "20 Cummings St, New York, NY 10034, USA"
+}, {
+    "groupName": "WASHINGTON HEIGHTS                  (:I) - Washington Heights    (:I)",
+    "locationName": "Holy Rood Church",
+    "streetAddress": "715+West+179th+Street,+New+York,+NY",
+    "day": "Tuesdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.849394,
+        "lng": -73.93841119999999
+    },
+    "address": "715 W 179th St, New York, NY 10033, USA"
+}, {
+    "groupName": "WASHINGTON HEIGHTS                 (:II) - Washington Heights    (:II)",
+    "locationName": "Cornerstone Center",
+    "streetAddress": "189th+Street+&amp;+Bennett+Avenue,+New+York,+NY",
+    "day": "Thursdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7509016,
+        "lng": -73.7904063
+    },
+    "address": "189th St, Queens, NY, USA"
+}, {
+    "groupName": "WHAT WE ARE LIKE NOW -",
+    "locationName": "The Corner Stone Center",
+    "streetAddress": "178+Bennett+Avenue,+New+York,+NY",
+    "day": "Sundays",
+    "startTime": 1800,
+    "endTime": 1900,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.8560587,
+        "lng": -73.93446569999999
+    },
+    "address": "178 Bennett Ave, New York, NY 10040, USA"
+}, {
+    "groupName": "WOMEN'S NITE - Women's Nite",
+    "locationName": "Cornerstone Center",
+    "streetAddress": "178+Bennett+Avenue,+New+York,+NY",
+    "day": "Mondays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.8560587,
+        "lng": -73.93446569999999
+    },
+    "address": "178 Bennett Ave, New York, NY 10040, USA"
+}]

@@ -1,0 +1,1921 @@
+[{
+    "groupName": "AA LITERATURE - AA Literature",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "FRONT BASEMENT ONLY",
+    "day": "Sundays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "BREAKFAST CLUB - Breakfast Club",
+    "locationName": "",
+    "streetAddress": "30+East+35th+Street,+New+York,+NY",
+    "notes": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "day": "Tuesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7479205,
+        "lng": -73.9817652
+    },
+    "address": "30 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "BREAKFAST CLUB - Breakfast Club",
+    "locationName": "",
+    "streetAddress": "30+East+35th+Street,+New+York,+NY",
+    "notes": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "day": "Wednesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479205,
+        "lng": -73.9817652
+    },
+    "address": "30 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "BREAKFAST CLUB - Breakfast Club",
+    "locationName": "",
+    "streetAddress": "30+East+35th+Street,+New+York,+NY",
+    "notes": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "day": "Thursdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.7479205,
+        "lng": -73.9817652
+    },
+    "address": "30 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "BREAKFAST CLUB - Breakfast Club",
+    "locationName": "",
+    "streetAddress": "30+East+35th+Street,+New+York,+NY",
+    "notes": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "day": "Fridays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479205,
+        "lng": -73.9817652
+    },
+    "address": "30 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "BREAKFAST CLUB - Breakfast Club",
+    "locationName": "",
+    "streetAddress": "30+East+35th+Street,+New+York,+NY",
+    "notes": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "day": "Mondays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479205,
+        "lng": -73.9817652
+    },
+    "address": "30 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "CARLYLE - Carlyle",
+    "locationName": "Cathedral High School",
+    "streetAddress": "350+East+56th+Street,+New+York,+NY",
+    "notes": "3rd Floor library",
+    "day": "Mondays",
+    "startTime": 1745,
+    "endTime": 1845,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7576496,
+        "lng": -73.964016
+    },
+    "address": "350 E 56th St, New York, NY 10022, USA"
+}, {
+    "groupName": "CARLYLE - Carlyle",
+    "locationName": "Cathedral High School",
+    "streetAddress": "350+East+56th+Street,+New+York,+NY",
+    "notes": "3rd Floor library",
+    "day": "Wednesdays",
+    "startTime": 1745,
+    "endTime": 1845,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7576496,
+        "lng": -73.964016
+    },
+    "address": "350 E 56th St, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Thursdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Mondays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Wednesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Fridays",
+    "startTime": 745,
+    "endTime": 845,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Mondays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Mondays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Tuesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Thursdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Wednesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Wednesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Thursdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Fridays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Fridays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "CITY GROUP - Citikorp",
+    "locationName": "St. Peter's Lutheran Church @ Citicorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "day": "Tuesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Sundays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Sundays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Sundays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Mondays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Tuesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Tuesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Wednesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Wednesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Thursdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Fridays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "COURAGE TO CHANGE - Courage To Change",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "day": "Fridays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "EMPIRE STATE - Empire State",
+    "locationName": "J.H. Holmes Community House",
+    "streetAddress": "28+East+35th+Street,+New+York,+NY",
+    "notes": "T Last Wednesday",
+    "day": "Mondays",
+    "startTime": 1215,
+    "endTime": 1315,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479666,
+        "lng": -73.9818762
+    },
+    "address": "28 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "EMPIRE STATE - Empire State",
+    "locationName": "J.H. Holmes Community House",
+    "streetAddress": "28+East+35th+Street,+New+York,+NY",
+    "notes": "T Last Wednesday",
+    "day": "Wednesdays",
+    "startTime": 1215,
+    "endTime": 1315,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7479666,
+        "lng": -73.9818762
+    },
+    "address": "28 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "EMPIRE STATE - Empire State",
+    "locationName": "J.H. Holmes Community House",
+    "streetAddress": "28+East+35th+Street,+New+York,+NY",
+    "notes": "T Last Wednesday",
+    "day": "Fridays",
+    "startTime": 1215,
+    "endTime": 1315,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7479666,
+        "lng": -73.9818762
+    },
+    "address": "28 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "GOTHAM - Gotham",
+    "locationName": "Cathedral High School",
+    "streetAddress": "350+East+56th+Street+,+New+York,+NY",
+    "notes": "Beginners Meeting 2nd &amp; 4th Sunday Step Meeting 1st &amp;3rd Sunday",
+    "day": "Sundays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7576496,
+        "lng": -73.964016
+    },
+    "address": "350 E 56th St, New York, NY 10022, USA"
+}, {
+    "groupName": "GOTHAM - Gotham",
+    "locationName": "Cathedral High School",
+    "streetAddress": "350+East+56th+Street+,+New+York,+NY",
+    "notes": "Beginners Meeting 2nd &amp; 4th Sunday Step Meeting 1st &amp;3rd Sunday",
+    "day": "Sundays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7576496,
+        "lng": -73.964016
+    },
+    "address": "350 E 56th St, New York, NY 10022, USA"
+}, {
+    "groupName": "GOTHAM - Gotham",
+    "locationName": "Cathedral High School",
+    "streetAddress": "350+East+56th+Street+,+New+York,+NY",
+    "notes": "Beginners Meeting 2nd &amp; 4th Sunday Step Meeting 1st &amp;3rd Sunday",
+    "day": "Tuesdays",
+    "startTime": 1745,
+    "endTime": 1845,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7576496,
+        "lng": -73.964016
+    },
+    "address": "350 E 56th St, New York, NY 10022, USA"
+}, {
+    "groupName": "GRAND CENTRAL - Grand Central",
+    "locationName": "Soldiers, Sailors, Marines &amp; Airmen's Club",
+    "streetAddress": "283+Lexington+Avenue,+New+York,+NY",
+    "notes": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "day": "Mondays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7479436,
+        "lng": -73.9782379
+    },
+    "address": "283 Lexington Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "GRAND CENTRAL - Grand Central",
+    "locationName": "Soldiers, Sailors, Marines &amp; Airmen's Club",
+    "streetAddress": "283+Lexington+Avenue,+New+York,+NY",
+    "notes": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "day": "Tuesdays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7479436,
+        "lng": -73.9782379
+    },
+    "address": "283 Lexington Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "GRAND CENTRAL - Grand Central",
+    "locationName": "Soldiers, Sailors, Marines &amp; Airmen's Club",
+    "streetAddress": "283+Lexington+Avenue,+New+York,+NY",
+    "notes": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "day": "Fridays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479436,
+        "lng": -73.9782379
+    },
+    "address": "283 Lexington Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "GRAND CENTRAL - Grand Central",
+    "locationName": "Soldiers, Sailors, Marines &amp; Airmen's Club",
+    "streetAddress": "283+Lexington+Avenue,+New+York,+NY",
+    "notes": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "day": "Wednesdays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.7479436,
+        "lng": -73.9782379
+    },
+    "address": "283 Lexington Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "GRAND CENTRAL - Grand Central",
+    "locationName": "Soldiers, Sailors, Marines &amp; Airmen's Club",
+    "streetAddress": "283+Lexington+Avenue,+New+York,+NY",
+    "notes": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "day": "Thursdays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7479436,
+        "lng": -73.9782379
+    },
+    "address": "283 Lexington Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "GRUPO BRASIL -",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Portugese speaking meeting.",
+    "day": "Wednesdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "GRUPO BRASIL -",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Portugese speaking meeting.",
+    "day": "Fridays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "LIFE LINE - Life Line",
+    "locationName": "St. Peter's Lutheran Church @ CitiCorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "All meetings are non-smoking.",
+    "day": "Mondays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "LIFE LINE - Life Line",
+    "locationName": "St. Peter's Lutheran Church @ CitiCorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "All meetings are non-smoking.",
+    "day": "Fridays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "LUNCH BUNCH - Lunch Bunch",
+    "locationName": "Saint Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "notes": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "day": "Mondays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "LUNCH BUNCH - Lunch Bunch",
+    "locationName": "Saint Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "notes": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "day": "Tuesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "LUNCH BUNCH - Lunch Bunch",
+    "locationName": "Saint Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "notes": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "day": "Wednesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "LUNCH BUNCH - Lunch Bunch",
+    "locationName": "Saint Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "notes": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "day": "Thursdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "LUNCH BUNCH - Lunch Bunch",
+    "locationName": "Saint Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "notes": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "day": "Fridays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "LUNCHTIME EXPRESS AT THE MUSTARD SEED -",
+    "locationName": "MUSTARD SEED",
+    "streetAddress": "122+E+37TH+St.,+New+York,+NY",
+    "day": "Wednesdays",
+    "startTime": 1230,
+    "endTime": 1315,
+    "meetingType": "O (Open meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MEDITATION SATURDAY NIGHT - Meditation Saturday Night",
+    "locationName": "Mustard Seed",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "11th S Meditation ENT BASEMENT ONLY",
+    "day": "Saturdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "<b>Saturdays From  7:30 PM <b>to 8:30 PM",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MONDAY MEN - Monday Men",
+    "locationName": "St. Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "day": "Mondays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "MONDAY MEN - Monday Men",
+    "locationName": "St. Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "day": "Thursdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "MONDAY MEN - Monday Men",
+    "locationName": "St. Agnes Church",
+    "streetAddress": "141+East+43rd+Street,+New+York,+NY",
+    "day": "Mondays",
+    "startTime": 1915,
+    "endTime": 2015,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7517648,
+        "lng": -73.9746571
+    },
+    "address": "141 E 43rd St, New York, NY 10017, USA"
+}, {
+    "groupName": "MURRAY HILL - Murray Hill",
+    "locationName": "Church of the Incarnation",
+    "streetAddress": "209+Madison+Avenue,+New+York,+NY",
+    "notes": "No Meetings on Legal Holidays.",
+    "day": "Mondays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7486231,
+        "lng": -73.9820249
+    },
+    "address": "209 Madison Ave, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 615,
+    "endTime": 715,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 800,
+    "endTime": 900,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 800,
+    "endTime": 900,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 800,
+    "endTime": 900,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 815,
+    "endTime": 915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 930,
+    "endTime": 1030,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 1100,
+    "endTime": 1200,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 1130,
+    "endTime": 1230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 1130,
+    "endTime": 1230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 1130,
+    "endTime": 1230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 1130,
+    "endTime": 1230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 1130,
+    "endTime": 1230,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 1245,
+    "endTime": 1345,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 1500,
+    "endTime": 1600,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 1515,
+    "endTime": 1615,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 1515,
+    "endTime": 1615,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 1515,
+    "endTime": 1615,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 1515,
+    "endTime": 1615,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 1515,
+    "endTime": 1615,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 1815,
+    "endTime": 1900,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Saturdays",
+    "startTime": 1930,
+    "endTime": 2030,
+    "meetingType": "<b>Saturdays From  7:30 PM <b>to 8:30 PM",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Tuesdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Sundays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Thursdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Wednesdays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Mondays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "locationName": "",
+    "streetAddress": "122+East+37th+Street,+New+York,+NY",
+    "notes": "Sun.7:30am,Tue.6:15pm B &amp; Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "day": "Fridays",
+    "startTime": 2200,
+    "endTime": 2300,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.748323,
+        "lng": -73.97884499999999
+    },
+    "address": "122 E 37th St, New York, NY 10016, USA"
+}, {
+    "groupName": "REBELLION DOGS -",
+    "locationName": "St. Peter's Lutheran Church @ CitiCorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "Living Sober",
+    "day": "Tuesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "SATURDAY EAST - Saturday East",
+    "locationName": "Church of the Good Shepherd",
+    "streetAddress": "240+East+31st+Street,+New+York,+NY",
+    "notes": "Focus is on members under 60 days.  All are welcome. Anniversaries last week of month",
+    "day": "Saturdays",
+    "startTime": 1600,
+    "endTime": 1700,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.74308630000001,
+        "lng": -73.9781856
+    },
+    "address": "240 E 31st St, New York, NY 10016, USA"
+}, {
+    "groupName": "SATURDAY STEP - Saturday Step",
+    "locationName": "The New York New Church",
+    "streetAddress": "114+East+35th+Street,+New+York,+NY",
+    "day": "Saturdays",
+    "startTime": 1000,
+    "endTime": 1100,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7471876,
+        "lng": -73.9801095
+    },
+    "address": "114 E 35th St, New York, NY 10016, USA"
+}, {
+    "groupName": "SERENITY EAST - Serenity East",
+    "locationName": "ALL SAINTS CHURCH",
+    "streetAddress": "230+East+60th+Street+(Basement)+,+New+York,+NY",
+    "notes": "Fri.6:30=Steps 3 &amp; 11",
+    "day": "Tuesdays",
+    "startTime": 730,
+    "endTime": 830,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.7614473,
+        "lng": -73.9650253
+    },
+    "address": "230 E 60th St, New York, NY 10022, USA"
+}, {
+    "groupName": "SERENITY EAST - Serenity East",
+    "locationName": "ALL SAINTS CHURCH",
+    "streetAddress": "230+East+60th+Street+(Basement)+,+New+York,+NY",
+    "notes": "Fri.6:30=Steps 3 &amp; 11",
+    "day": "Fridays",
+    "startTime": 1830,
+    "endTime": 1930,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7614473,
+        "lng": -73.9650253
+    },
+    "address": "230 E 60th St, New York, NY 10022, USA"
+}, {
+    "groupName": "SERENITY EAST - Serenity East",
+    "locationName": "ALL SAINTS CHURCH",
+    "streetAddress": "230+East+60th+Street+(Basement)+,+New+York,+NY",
+    "notes": "Fri.6:30=Steps 3 &amp; 11",
+    "day": "Fridays",
+    "startTime": 2000,
+    "endTime": 2100,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7614473,
+        "lng": -73.9650253
+    },
+    "address": "230 E 60th St, New York, NY 10022, USA"
+}, {
+    "groupName": "SERENITY EAST (:I) -",
+    "locationName": "Caron Foundation",
+    "streetAddress": "244+East+58th+Street,+New+York,+NY",
+    "day": "Tuesdays",
+    "startTime": 1730,
+    "endTime": 1830,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.7600109,
+        "lng": -73.96544
+    },
+    "address": "244 E 58th St, New York, NY 10022, USA"
+}, {
+    "groupName": "SILKWORTH WOMEN'S - Silkworth Women's",
+    "locationName": "St. Peter's Lutheran Church @ CitiCorp Center",
+    "streetAddress": "619+Lexington+Avenue,+New+York,+NY",
+    "notes": "Women&apos;s Meeting.",
+    "day": "Thursdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.75856539999999,
+        "lng": -73.9703834
+    },
+    "address": "619 Lexington Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "ST. BART'S TWELVE-THIRTIES - St. Bart's Twelve-Thirties",
+    "locationName": "St. Bartholomew's Church",
+    "streetAddress": "325+Park+Avenue,+New+York,+NY",
+    "notes": "Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public NOTE: Monday &amp; Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance.",
+    "day": "Fridays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "BB (Big Book meeting)",
+    "latLong": {
+        "lat": 40.7572248,
+        "lng": -73.9730479
+    },
+    "address": "325 Park Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "ST. BART'S TWELVE-THIRTIES - St. Bart's Twelve-Thirties",
+    "locationName": "St. Bartholomew's Church",
+    "streetAddress": "325+Park+Avenue,+New+York,+NY",
+    "notes": "Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public NOTE: Monday &amp; Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance.",
+    "day": "Mondays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7572248,
+        "lng": -73.9730479
+    },
+    "address": "325 Park Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "ST. BART'S TWELVE-THIRTIES - St. Bart's Twelve-Thirties",
+    "locationName": "St. Bartholomew's Church",
+    "streetAddress": "325+Park+Avenue,+New+York,+NY",
+    "notes": "Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public NOTE: Monday &amp; Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance.",
+    "day": "Wednesdays",
+    "startTime": 1230,
+    "endTime": 1330,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7572248,
+        "lng": -73.9730479
+    },
+    "address": "325 Park Ave, New York, NY 10022, USA"
+}, {
+    "groupName": "STRAIGHT 12 -",
+    "locationName": "CHURCH OF THE GOOD SHEPARD",
+    "streetAddress": "236+EAST+31st+STREET+,+New+York,+NY",
+    "day": "Saturdays",
+    "startTime": 1800,
+    "endTime": 1900,
+    "meetingType": "C (Closed Discussion meeting)",
+    "latLong": {
+        "lat": 40.7430458,
+        "lng": -73.978217
+    },
+    "address": "236 E 31st St, New York, NY 10016, USA"
+}, {
+    "groupName": "STRAIGHT 12 -",
+    "locationName": "CHURCH OF THE GOOD SHEPARD",
+    "streetAddress": "236+EAST+31st+STREET+,+New+York,+NY",
+    "day": "Saturdays",
+    "startTime": 1915,
+    "endTime": 2015,
+    "meetingType": "B (Beginners meeting)",
+    "latLong": {
+        "lat": 40.7430458,
+        "lng": -73.978217
+    },
+    "address": "236 E 31st St, New York, NY 10016, USA"
+}, {
+    "groupName": "STRAIGHT 12 -",
+    "locationName": "CHURCH OF THE GOOD SHEPARD",
+    "streetAddress": "236+EAST+31st+STREET+,+New+York,+NY",
+    "day": "Saturdays",
+    "startTime": 2030,
+    "endTime": 2130,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7430458,
+        "lng": -73.978217
+    },
+    "address": "236 E 31st St, New York, NY 10016, USA"
+}, {
+    "groupName": "TEMPLETON - Templeton",
+    "locationName": "Conservative Synagogue",
+    "streetAddress": "308+East+55th+Street,+New+York,+NY",
+    "day": "Wednesdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7576231,
+        "lng": -73.9657988
+    },
+    "address": "308 E 55th St, New York, NY 10022, USA"
+}, {
+    "groupName": "TRAFALGAR - Trafalgar",
+    "locationName": "The Caron Foundation",
+    "streetAddress": "244+East+58th+Street,+New+York,+NY",
+    "day": "Tuesdays",
+    "startTime": 1845,
+    "endTime": 1945,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7600109,
+        "lng": -73.96544
+    },
+    "address": "244 E 58th St, New York, NY 10022, USA"
+}, {
+    "groupName": "TUDOR - Tudor",
+    "locationName": "Caron Foundation",
+    "streetAddress": "244+East+58th+Street,+New+York,+NY",
+    "day": "Thursdays",
+    "startTime": 1815,
+    "endTime": 1915,
+    "meetingType": "OD (Open Discussion meeting)",
+    "latLong": {
+        "lat": 40.7600109,
+        "lng": -73.96544
+    },
+    "address": "244 E 58th St, New York, NY 10022, USA"
+}, {
+    "groupName": "WOMEN'S ELEVENTH STEP - Women's Eleventh Step",
+    "locationName": "",
+    "streetAddress": "109+East+50th+Street,+New+York,+NY",
+    "notes": "11th Step, Anniv. 3rd Wednesday No Smoking",
+    "day": "Wednesdays",
+    "startTime": 1745,
+    "endTime": 1915,
+    "meetingType": "S (Step meeting)",
+    "latLong": {
+        "lat": 40.7569979,
+        "lng": -73.9734971
+    },
+    "address": "109 E 50th St, New York, NY 10022, USA"
+}]
