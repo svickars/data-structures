@@ -6,10 +6,10 @@ var http = require('http');
 // printenv | grep NEW_VAR
 
 // connection string
-var un = "sam"; // aws db username
-var pw = "passwordistaco"; // aws db password
-var db = "augdogsuperbowl"; // aws db database name
-var ep = "augdogsuperbowl.czoqkqork3og.us-east-1.rds.amazonaws.com:5432"; // aws db endpoint
+var un = process.env.USERNAME; // aws db username
+var pw = process.env.PASSWORD; // aws db password
+var db = process.env.DBNAME; // aws db database name
+var ep = process.env.DBEP; // aws db endpoint
 var conString = "postgres://" + un + ":" + pw + "@" + ep + "/" + db;
 // console.log(conString);
 
