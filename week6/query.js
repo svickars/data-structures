@@ -24,7 +24,7 @@ MongoClient.connect(url, function(err, db) {
         
         else {
             console.log(docs);
-            fs.writeFileSync('/home/ubuntu/workspace/week6/output.txt', JSON.stringify(docs)); // save results to text file
+            fs.writeFileSync('/home/ubuntu/workspace/week6/output.json', JSON.stringify(docs)); // save results to text file
         }
         db.close();
         console.log("This process completed in", new Date() - datetimeStart, "milliseconds.");

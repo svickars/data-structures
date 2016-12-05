@@ -7,8 +7,8 @@ var async = require('async'); // npm install async
 // SETTING ENVIRONMENT VARIABLES (in Linux): 
 // export NEW_VAR="Content of NEW_VAR variable"
 // printenv | grep NEW_VAR
-var apiKey = process.env.GMAKEY;
-var zoneNumber = '02';
+var apiKey = process.env.apiKey;
+var zoneNumber = '01';
 
 // // read zone html files from assignment 1
 var content = fs.readFileSync('/home/ubuntu/workspace/week6/sourceHTML/' + zoneNumber + '.txt');
@@ -29,12 +29,12 @@ $('tbody').find('tr').each(function(i, elem){
                 var meetings = new Object;
                 
                 // find meeting information: group name, notes and location data
-                meetings.groupName = $(elem).find('td').eq(0).html().split('<br>')[1].split('<b>').pop().split('</b>').shift().replace(/&apos;/g, '\'').trim();
+                meetings.groupName = $(elem).find('td').eq(0).html().split('<br>')[1].split('<b>').pop().split('</b>').shift().replace(/&apos;/g, "'").replace(" -","").trim();
                 meetings.locationName = $(elem).find('td').eq(0).html().split('<br>')[0].split('0;">').pop().split('</h4>').shift().replace(/&apos;/g, '\'').trim();
                 meetings.streetAddress = $(elem).find('td').eq(0).html().split('<br>')[2].split(',').shift().concat(', New York, NY').split(' ').join('+').trim();
                 // this will be written over by latLong data below
                 if ($(elem).find('div').eq(0).html() !== null) {
-                    meetings.notes = $(elem).find('div').eq(0).html().replace(/<br>/g,'').trim();
+                    meetings.notes = $(elem).find('div').eq(0).html().replace(/<br>/g,'').replace('Anniv.', 'anniversary').replace('Last', 'last').trim();
                 }
                 
                 // find meeting infomration: days, times, and meeting types
@@ -48,7 +48,7 @@ $('tbody').find('tr').each(function(i, elem){
         }
     });
 
-// thanks to Joshua for this idea! should hopefully help with the DB later.
+// thanks to Joshua for this idea, should hopefully help with the DB later.
 function convertTo24Hour(time) {
     var hours = time.split(':')[0];
     var minutes = time.split(':')[1].split(' ')[0];
@@ -59,23 +59,23 @@ function convertTo24Hour(time) {
     return Number(hours + minutes);
 }
 
-    // console.log(meetingsData);
+    console.log(meetingsData);
     // fs.writeFileSync('/home/ubuntu/workspace/week6/data/' + zoneNumber + '.json', JSON.stringify(meetingsData));
 
-async.eachSeries(meetingsData, function(value, callback) {
-    var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + value.streetAddress + '&key=' + apiKey;
-    request(apiRequest, function(err, resp, body) {
-        if (err) { throw err; }
-        value.latLong = JSON.parse(body).results[0].geometry.location;
-        value.address = JSON.parse(body).results[0].formatted_address;
-        // value.address = JSON.parse(body);
-    });
-    setTimeout(callback, 500);
-    // console.log(apiRequest);
-}, function() {
-    console.log(meetingsData);
-    fs.writeFileSync('/home/ubuntu/workspace/week6/data/' + zoneNumber + '.txt', JSON.stringify(meetingsData));
-});
+// async.eachSeries(meetingsData, function(value, callback) {
+//     var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + value.streetAddress + '&key=' + apiKey;
+//     request(apiRequest, function(err, resp, body) {
+//         if (err) { throw err; }
+//         value.latLong = JSON.parse(body).results[0].geometry.location;
+//         value.address = JSON.parse(body).results[0].formatted_address;
+//         // value.address = JSON.parse(body);
+//     });
+//     setTimeout(callback, 500);
+//     // console.log(apiRequest);
+// }, function() {
+//     console.log(meetingsData);
+//     fs.writeFileSync('/home/ubuntu/workspace/week6/dataNew/' + zoneNumber + '.json', JSON.stringify(meetingsData));
+// });
 
 
 

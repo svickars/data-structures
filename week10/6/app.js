@@ -6,6 +6,9 @@ var collName = 'meetings';
 // Connection URL
 var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
 
+var searchDay = "Sundays",
+    searchTime = 900;
+
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
 
@@ -18,22 +21,24 @@ var server = http.createServer(function(req, res) {
 
         var collection = db.collection(collName);
 
-        // find meetings on Tuesdays starting at 7pm or later or Wednesdays starting at 4am or earlier
-        collection.aggregate([{
-            $match: {
-                $or: [{
-                    day: "Tuesdays",
-                    startTime: {
-                        $gte: 1900
-                    }
-                }, {
-                    day: "Wednesdays",
-                    startTime: {
-                        $lte: 400
-                    }
-                }]
-            }
-        }]).toArray(function(err, docs) {
+        // find meetings on Tuesdays starting at 7pm or later
+        collection.aggregate([
+            { $match: { $and: [{
+                day: searchDay,
+                startTime : {$gte: searchTime}
+                }] } },
+            { $group: {
+                _id: { locationName: "$locationName", address: "$address", notes: "$notes", latLong: "$latLong"},
+                meetings: {
+                    $push: {
+                        groupName: "$groupName",
+                        type: "$type",
+                        meetingDay: "$day",
+                        startTime: "$startTime",
+                        endTime: "$endTime"
+                    }} } 
+            }])
+        .toArray(function(err, docs) {
             if (err) {
                 console.log(err)
             }
@@ -49,4 +54,5 @@ var server = http.createServer(function(req, res) {
         });
     });
 });
+
 server.listen(process.env.PORT);

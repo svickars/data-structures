@@ -12,7 +12,7 @@ var address = [];
 var meetingsData = [];
 
 // change this number according to data set
-var fileNumber = '03';
+var fileNumber = '01';
 
 // read text file from assignment 2 and clean up
 var addList = JSON.parse(fs.readFileSync('/home/ubuntu/workspace/week6/data/' + fileNumber + '.json'));
@@ -34,6 +34,6 @@ async.eachObject(addList, function(value, callback) {
     setTimeout(callback, 1000);
     console.log(thisMeeting);
 }, function() {
-    // console.log(meetingsData); // print results to console
-    // fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber +'.txt', JSON.stringify(meetingsData)); // save results to text file
+    console.log(meetingsData); // print results to console
+    fs.writeFileSync('/home/ubuntu/workspace/week3/data/locations' + fileNumber +'.txt', JSON.stringify(meetingsData)); // save results to text file
 });
