@@ -19,12 +19,12 @@ MongoClient.connect(url, function(err, db) {
     var collection = db.collection(collName);
 
 // find meetings on Tuesdays starting at 7pm or later or Wednesdays starting at 4am or earlier
-    collection.aggregate([ { $match: { $or: [ { day: "Tuesdays", startTime: {$gte: 1900} }, { day: "Wednesdays", startTime: {$lte: 400} } ] } } ]).toArray(function(err, docs) {
+    collection.aggregate().toArray(function(err, docs) {
         if (err) {console.log(err)}
         
         else {
-            console.log(docs);
-            fs.writeFileSync('/home/ubuntu/workspace/week6/output.json', JSON.stringify(docs)); // save results to text file
+            // console.log(docs);
+            fs.writeFileSync('/home/ubuntu/workspace/weeklyAssignments/week6/output.json', JSON.stringify(docs)); // save results to text file
         }
         db.close();
         console.log("This process completed in", new Date() - datetimeStart, "milliseconds.");
