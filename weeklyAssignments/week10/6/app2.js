@@ -1,14 +1,13 @@
-var pg = require('pg');
-var http = require('http');
+// QUERY MONGODB
+
 var dbName = 'aaDatabase';
 var collName = 'meetings';
-var results = [];
+
+var http = require("http");
+var fs = require("fs");
 
 // Connection URL
 var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
-
-var searchDay = "Sundays",
-    searchTime = 900;
 
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
@@ -117,6 +116,12 @@ var server = http.createServer(function(req, res) {
                         'content-type': 'application/json'
                     });
                 res.end(JSON.stringify(docs));
+                // res.writeHead(200, {
+                //     'content-type': 'text/html'
+                // });
+                // res.write(index1);
+                // res.write(JSON.stringify(docs));
+                // res.end(index3);
             }
             db.close();
         });
