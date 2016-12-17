@@ -2,7 +2,7 @@
 
 [Running App](https://data-structures-w9-samvickars.c9users.io/)
 
-##### Contents of Mongo Database ([Weekly Assignment 6](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week6/query.js))
+### Contents of Mongo Database ([Weekly Assignment 6](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week6/query.js))
 First five results shown
 ```javascript
 [{
@@ -84,7 +84,7 @@ First five results shown
 ...]
 ```
 
-##### Query Results, 5:45pm on a Saturday
+### Query Results, 5:45pm on a Saturday ([Weekly Assignment 10](https://github.com/svickars/data-structures/tree/master/weeklyAssignments/week10/6))
 First five results shown
 ```javascript
 [{
@@ -306,5 +306,5 @@ First five results shown
 ...}]
 ```
 
-##### Resulting Map
+### Resulting Map
 ![Screencap](screencap.png)
