@@ -1,12 +1,83 @@
 var request = require('request'); // npm install request
 var async = require('async'); // npm install async
 var fs = require('fs');
+var MongoClient = require('mongodb').MongoClient;
 
 var dbName = 'aaDatabase';
 var collName = 'meetings';
-var url = 'mongodb://0.0.0.0:27017/' + dbName;
 
-var meetings = JSON.parse(fs.readFileSync('output.json'));
+// Connection URL
+var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
+var results = [];
+
+var searchDay = "Sundays",
+    searchTime = 900;
+
+
+// var meetings = JSON.parse(request('https://data-structures-w9-samvickars.c9users.io/week10/6/app.js'));
+
+MongoClient.connect(url, function(err, db) {
+    if (err) {
+        return console.dir(err);
+    }
+
+    var collection = db.collection(collName);
+
+    // find meetings on Tuesdays starting at 7pm or later
+    collection.aggregate([{
+            $match: {
+                $and: [{
+                    day: searchDay,
+                    startTime: {
+                        $gte: searchTime
+                    }
+                }]
+            }
+        }, {
+            $group: {
+                _id: {
+                    locationName: "$locationName",
+                    address: "$address",
+                    notes: "$notes",
+                    latLong: "$latLong"
+                },
+                meetings: {
+                    $push: {
+                        groupName: "$groupName",
+                        type: "$type",
+                        meetingDay: "$day",
+                        startTime: "$startTime",
+                        endTime: "$endTime"
+                    }
+                }
+            }
+        }])
+        .toArray(function(err, docs) {
+            if (err) {
+                console.log(err)
+            }
+
+            else {
+                // console.log(docs);
+                results.push(docs);
+                console.log(results);
+                // fs.writeFileSync('/home/ubuntu/workspace/week6/output.txt', JSON.stringify(docs)); // save results to text file
+                // res.writeHead(200, {'content-type': 'application/json'});
+                // res.end(JSON.stringify(docs));
+            }
+            db.close();
+            // console.log("This process completed in", new Date() - datetimeStart, "milliseconds.");
+        });
+});
+
+
+
+
+
+
+
+
+// console.log(results);
 
 function initialize() {
     var mapOptions = {
@@ -144,7 +215,7 @@ function initialize() {
     GeoMarker.setMap(map);
 
     var infoWindow = new google.maps.InfoWindow();
-    console.log(meetings);
+    // console.log(meetings);
 
     for (var i = 0; i < meetings.length; i++) {
         var data = meetings[i];
