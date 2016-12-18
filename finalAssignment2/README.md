@@ -9,7 +9,7 @@
 5. [](#)
 
 
-### 1. Visualization of Sketch <a id="1"></a>
+### <a id="1"></a>1. Visualization of Sketch
 ![Vizualization Sketch](waterBowl.png)
 
 ### Collecting the Data ([Weekly Assignment 8](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week8/app.js))
