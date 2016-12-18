@@ -1,12 +1,12 @@
 ## Augie's Waterbowl - Final Assignment 2
 
-[Running App]()
+[Running App](https://data-structures-w14-samvickars.c9users.io/)
 
 1. [Visualization of Sketch](#one)
 2. [Collecting the Data](#two)
-3. [](#)
-4. [](#)
-5. [](#)
+3. [Connecting to the Database](#three)
+4. [Contents of Postgres Database](#four)
+5. [Connecting the Data to the Visualization](#five)
 
 
 ### <a id="one"></a>1. Visualization of Sketch
@@ -54,7 +54,7 @@ var R_DIV = 3230.0;
 To set up my FSR (force sensitive resistor) and Arduino board, I followed this [tutorial](http://johnny-five.io/examples/sensor-fsr/). I then did some quick math to convert the raw data returned from the sensor into a more tangible unit, grams. There were some issues getting the weight of the bowl to register on the sensor. Unfortunately, I don't have a photo, but my workaround was to place the bowl on an olive oil bottle lid, which was then placed on the sensor (on a hard, flat surface) to pinpoint the weight onto the sensor. I then had to build up a little bumper structure to keep Augie from knocking the whole set-up over.
 >Note: There was an issue collecting the data in that sometime in the middle of the night, the bowl steadily began to get heavier. As in, *a lot* heavier. I've done some troubleshooting, but I'm still not entirely sure what happened. As of right now, I haven't tried to recollect the data, so what's documented here includes the odd data. **Will try to do it over before Tuesday.**
 
-### 2 Connecting to the Database ([Weekly Assignment 9](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week9/week9.js))
+### <a id="three"></a>3. Connecting to the Database ([Weekly Assignment 9](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week9/week9.js))
 
 ```javascript
 var five = require("johnny-five");
@@ -117,7 +117,7 @@ new five.Board().on("ready", function() {
 ```
 The code above connects to my database on Amazon Web Services and inserts three fields: datecreated (the time stamp at time of entry), force (the weight of the water bowl in grams), resistance (in ohms), and what was intended to be fullness (full or not full, but this didn't pan out).
 
-### 3 Contents of Postgres Database ([Weekly Assignment 9](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week9/query.js))
+### <a id="four"></a>4. Contents of Postgres Database ([Weekly Assignment 9](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week9/query.js))
 
 ```javascript
 [{
@@ -174,7 +174,7 @@ The code above connects to my database on Amazon Web Services and inserts three 
 ...]
 ```
 
-### 4 Connecting the Data to the Visualization
+### <a id="five"></a>5. Connecting the Data to the Visualization
 The visualization [pictured above](#visualization-of-sketch) is a basic time-series line graph. That marks the weight of the bowl every two minutes for a 24-hour period. Quite simply, the two parameters needed for the visualization are time (datecreated) and weight (force, in grams).
 
 My initial thought would be to create the viz using D3.js. I could load the API results using d3.json, and apply a linear scale to the parsed date (in hours), mapping it along the X axis from 6am to 6am the next day. A linear scale could also be applied to the weight of the bowl, mapping it along the Y axis from 0g to 400g. Coordinates are specified by the two parameters, hour and weight. Then it's simple enough to draw a line connecting the points, and voila!
