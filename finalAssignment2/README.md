@@ -2,14 +2,14 @@
 
 [Running App]()
 
-1. [Visualization of Sketch](#visualization-of-sketch)
+1. [Visualization of Sketch](#1)
 2. [Collecting the Data](#collecting-the-data)
 3. [](#)
 4. [](#)
 5. [](#)
 
 
-### Visualization of Sketch
+### 1. Visualization of Sketch <a id="1"></a>
 ![Vizualization Sketch](waterBowl.png)
 
 ### Collecting the Data ([Weekly Assignment 8](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week8/app.js))
