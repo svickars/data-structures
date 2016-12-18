@@ -2,17 +2,17 @@
 
 [Running App]()
 
-1. [Visualization of Sketch](#1)
-2. [Collecting the Data](#collecting-the-data)
+1. [Visualization of Sketch](#one)
+2. [Collecting the Data](#two)
 3. [](#)
 4. [](#)
 5. [](#)
 
 
-### <a id="1"></a>1. Visualization of Sketch
+### <a id="one"></a>1. Visualization of Sketch
 ![Vizualization Sketch](waterBowl.png)
 
-### Collecting the Data ([Weekly Assignment 8](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week8/app.js))
+### <a id="two"></a>2. Collecting the Data ([Weekly Assignment 8](https://github.com/svickars/data-structures/blob/master/weeklyAssignments/week8/app.js))
 ```javascript
 var five = require("johnny-five"),
   fsr, force, fsrG, fsrR, fsrADC, fsrV;
