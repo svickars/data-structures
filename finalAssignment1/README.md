@@ -1,4 +1,4 @@
-## AA Meetings - Final Assignment
+## AA Meetings - Final Assignment 1
 
 [Running App](https://data-structures-w9-samvickars.c9users.io/)
 
