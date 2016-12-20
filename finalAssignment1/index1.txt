@@ -23,6 +23,11 @@
         #locationName {
             margin-bottom: 0px;
         }
+        
+        .notes {
+            font-size: 10px;
+            font-style: italic;
+        }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvwihZJ1LIrBm1reGaSrWFm4jzqP3_D30"></script>
     <script>

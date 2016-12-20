@@ -32,7 +32,10 @@ var server = http.createServer(function(req, res) {
         else {
             tomorrow = today + 1
         }
-        var hour = (dateTimeNow.getHours() - 5) * 100;
+        
+        var hour = dateTimeNow.getHours()-5;
+        if (hour < 0) { hour = hour+24 };
+        hour = hour*100;
         
         var weekday = new Array(7);
         weekday[0] =  "Sunday";
@@ -45,29 +48,6 @@ var server = http.createServer(function(req, res) {
         
         today = weekday[today] + "s";
         tomorrow = weekday[tomorrow] + "s";
-        
-
-        // var dateTimeNow = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-        // var today = dateFormat(dateTimeNow, "dddd");
-        // var hour = dateFormat(dateTimeNow, "HH");
-        
-        // var weekday = new Array(7);
-        // weekday["Saturday"] =  "Sunday";
-        // weekday["Sunday"] = "Monday";
-        // weekday["Monday"] = "Tuesday";
-        // weekday["Tuesday"] = "Wednesday";
-        // weekday["Wednesday"] = "Thursday";
-        // weekday["Thursday"] = "Friday";
-        // weekday["Friday"] = "Saturday";
-        
-        // var tomorrow = weekday[today];
-
-
-        // today = today + "s";
-        // tomorrow = tomorrow + "s";
-        // hour = hour * 100
-        
-        // console.log(today + " (" + tomorrow + "): " + hour)
 
         var collection = db.collection(collName);
 

@@ -17,29 +17,33 @@
                 contentHolder = contentHolder + '<h2 id="locationName">' + cont.meetingGroups[i].groupInfo.locationName + '</h2>';
                 contentHolder = contentHolder + '<h4>' + cont.meetingGroups[i].groupInfo.meetingAddress + '</h4>';
             } 
+                var notes = cont.meetingGroups[i].groupInfo.meetingDetails;
+                if (notes == undefined) {
+                    notes = "";
+                    }
                 contentHolder = contentHolder + '<h1 id="firstHeading" class="firstHeading">';
-                contentHolder = contentHolder + cont.meetingGroups[i].groupInfo.meetingName.toLowerCase().replace(/[ ]/g, " ").split(" ").removeDuplicate().join(" ").replace(" -", "").replace("(:", "").replace("ii)", "").replace("i)", "") + '</h1>';
+                contentHolder = contentHolder + cont.meetingGroups[i].groupInfo.meetingName.toLowerCase().replace(/[ ]/g, " ").split(" ").removeDuplicate().join(" ").replace(" -", "").replace("(:", "").replace("ii)", "").replace("i)", "") + '</h1>' + '<div class="notes">' + notes + '</div>';
                 
                 for (var j = 0; j < cont.meetingGroups[i].meetingType.length; j++) {
                     var st = cont.meetingGroups[i].meetingStartTime[j];
                     var ap;
-                    if (st == 1200) {
-                        st = 1200;
-                    }
-                    else {
-                    st = ((st + 1100) % 1200 + 100);
-                    }
                     if (st < 1200 || st > 2359) {
                         ap = "am";
                     }
                     else {
                         ap = "pm"
                     }
+                    if (st == 1200) {
+                        st = 1200;
+                    }
+                    else {
+                    st = ((st + 1100) % 1200 + 100);
+                    }
                     
                     st = st.toString();
                     st = st.substring(0, st.length-2) + ":" + st.substring(st.length-2);
 
-                    contentHolder = contentHolder + st + ap + ' -  ' + cont.meetingGroups[i].meetingType[j] + '<br>';
+                    contentHolder = contentHolder + '<strong>' + cont.meetingGroups[i].meetingDay[j].substring(0,2) + '</strong> ' + st + ap + ' -  ' + cont.meetingGroups[i].meetingType[j] + '<br>';
                 }
                 contentHolder = contentHolder + '</p>';
                 contentHolder = contentHolder + '<div class="iw-bottom-gradient"></div>';
