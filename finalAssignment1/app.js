@@ -5,6 +5,7 @@ var collName = 'meetings';
 
 var http = require("http");
 var fs = require("fs");
+var dateFormat = require('dateformat');
 
 // Connection URL
 var url = 'mongodb://' + process.env.IP + ':27017/' + dbName;
@@ -41,9 +42,32 @@ var server = http.createServer(function(req, res) {
         weekday[4] = "Thursday";
         weekday[5] = "Friday";
         weekday[6] = "Saturday";
-        var today = weekday[today] + "s";
-        var tomorrow = weekday[tomorrow] + "s";
         
+        today = weekday[today] + "s";
+        tomorrow = weekday[tomorrow] + "s";
+        
+
+        // var dateTimeNow = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+        // var today = dateFormat(dateTimeNow, "dddd");
+        // var hour = dateFormat(dateTimeNow, "HH");
+        
+        // var weekday = new Array(7);
+        // weekday["Saturday"] =  "Sunday";
+        // weekday["Sunday"] = "Monday";
+        // weekday["Monday"] = "Tuesday";
+        // weekday["Tuesday"] = "Wednesday";
+        // weekday["Wednesday"] = "Thursday";
+        // weekday["Thursday"] = "Friday";
+        // weekday["Friday"] = "Saturday";
+        
+        // var tomorrow = weekday[today];
+
+
+        // today = today + "s";
+        // tomorrow = tomorrow + "s";
+        // hour = hour * 100
+        
+        // console.log(today + " (" + tomorrow + "): " + hour)
 
         var collection = db.collection(collName);
 
@@ -64,7 +88,7 @@ var server = http.createServer(function(req, res) {
                             day: tomorrow
                         }, {
                             startTime: {
-                                $lte: 4
+                                $lte: 400
                             }
                         }]
                     }]
